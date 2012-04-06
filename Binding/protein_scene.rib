@@ -1,0 +1,68 @@
+version 3.03
+
+Display "protein.tif" "file" "rgba"
+Format 500 800 1
+FrameAspectRatio 0.625
+ShadingRate 32
+
+Declare "bgcolor" "uniform color"
+Imager "background" "bgcolor" [0 0 0]
+
+Projection "perspective" "fov" 30.1121
+Translate 0.07 0.05 2
+
+ShadingInterpolation "smooth"
+Attribute "trace" "bias" 0.01
+Attribute "light" "string shadows" "on"
+
+Attribute "visibility" "int diffuse" 1
+Attribute "visibility" "int specular" 1
+Attribute "visibility" "int ambient" 1
+Attribute "shade" "string diffusehitmode" ["shader"]
+Attribute "shade" "string specularhitmode" ["shader"]
+Attribute "shade" "string transmissionhitmode" ["shader"]
+
+#Option "photon" "int emit" 100000
+#Attribute "visibility" "photon" [1]
+#Attribute "photon" "shadingmodel" "matte"
+#Attribute "light" "emitphotons" ["on"]
+#Option "photon" "maxdiffusedepth" [5] "maxspeculardepth" [5]
+#Attribute "photon" "globalmap" "photonmap"
+
+Attribute "visibility" "photon" 1
+Attribute "visibility" "transmission" 1
+
+WorldBegin
+TransformBegin
+  Scale 1 1 -1
+
+    AttributeBegin
+        Attribute "visibility" "photon" 0
+        Attribute "visibility" "transmission" 0
+        Color 0 0 1
+        Surface "constant"
+
+        #ReadArchive "ligand_licorice.rib"
+        #ReadArchive "ligand_cpk.rib"
+    AttributeEnd
+
+    ReadArchive "lights.rib"
+
+    AttributeBegin
+        Attribute "visibility" "subsurface" "marble"
+        Attribute "subsurface"
+            "color scattering" [0.8 0.8 8.5]
+            "color absorption" [0.0001 0.0001 0.0010]
+            "refractionindex" 1.5
+            "scale" 0.05
+            "shadingrate" 32
+
+        Color 1 1 1
+        #Color 0 0 0
+        Surface "indirect"
+        #Surface "matte"
+        ReadArchive "protein_base_layer.rib"
+    AttributeEnd
+TransformEnd
+WorldEnd
+

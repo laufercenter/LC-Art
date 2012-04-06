@@ -1,0 +1,14 @@
+1. Build shaders:
+
+./make_shaders
+
+2. Render the protein:
+
+renderdl protein_scene.rib
+
+3. Render the ligand:
+
+renderdl ligand_scene.rib
+
+
+Composite in photoshop.
