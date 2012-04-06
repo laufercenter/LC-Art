@@ -1,0 +1,6067 @@
+Surface "indirect"
+TransformBegin
+  Color 1 1 1
+  Opacity 1 1 1
+  Translate 0.289937 -1.11719 0.130334
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.352952 -1.11675 0.131841
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.368423 -1.08892 0.190328
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.316527 -1.04824 0.202046
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.266943 -1.08809 0.180843
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.208915 -1.05628 0.173694
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.200267 -1.02956 0.125797
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.171097 -1.06093 0.214773
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.113086 -1.03076 0.226858
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0651988 -1.0775 0.230078
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0417572 -1.09838 0.169114
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.00660598 -1.15522 0.173503
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0147072 -1.19541 0.210406
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0304267 -1.17 0.131528
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.114427 -0.989987 0.277876
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.139743 -1.00194 0.323569
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0800735 -0.941844 0.271296
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0660583 -0.904392 0.322994
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.112576 -0.856393 0.337796
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.104449 -0.802733 0.294816
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.117938 -0.839115 0.40203
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.142859 -0.885369 0.442826
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.00269735 -0.878047 0.317166
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0174621 -0.868807 0.267921
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0238022 -0.861164 0.368612
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0835938 -0.838065 0.376128
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.117329 -0.874725 0.426727
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.180663 -0.869001 0.421306
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.100186 -0.938016 0.429817
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0867986 -0.774368 0.387354
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0498942 -0.750522 0.414991
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.131043 -0.746268 0.362074
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.138753 -0.681649 0.354085
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.179306 -0.66059 0.301354
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.165407 -0.694212 0.241258
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.208223 -0.66302 0.201607
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.103269 -0.680554 0.221655
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.156626 -0.648148 0.410129
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.167255 -0.596537 0.407472
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.154438 -0.679048 0.45918
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.169832 -0.652385 0.514809
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.168051 -0.696027 0.564403
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.10597 -0.70591 0.586368
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.064371 -0.731983 0.556595
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.00985336 -0.732124 0.583723
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0180318 -0.71043 0.638911
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.021031 -0.702734 0.684347
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.00559223 -0.669108 0.736557
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0496378 -0.646338 0.73943
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0904939 -0.657679 0.694727
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0773652 -0.689842 0.644306
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.127262 -0.601824 0.533007
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.143913 -0.563085 0.568673
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0761352 -0.599816 0.50209
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0390464 -0.548278 0.49259
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0137409 -0.551439 0.534217
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0101359 -0.539443 0.593531
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0315808 -0.530244 0.642592
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.00494301 -0.518885 0.701008
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0357656 -0.469543 0.704563
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0212648 -0.543457 0.425726
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0114285 -0.580503 0.389866
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0122087 -0.486739 0.409981
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.00469422 -0.461633 0.349844
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.00345552 -0.392497 0.353851
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.063897 -0.362275 0.358907
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0618008 -0.295047 0.363473
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0388733 -0.270304 0.307335
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0108041 -0.235909 0.303817
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0479351 -0.227115 0.347433
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0235168 -0.217896 0.25156
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0499089 -0.480807 0.317717
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0926598 -0.492915 0.34555
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0544237 -0.480042 0.258115
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0102804 -0.463054 0.216394
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0398507 -0.474816 0.158376
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0864283 -0.517334 0.165001
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.104195 -0.505511 0.228584
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.163466 -0.471457 0.232386
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.185823 -0.446204 0.189069
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.19171 -0.470926 0.282449
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.249007 -0.446895 0.294381
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.255387 -0.407031 0.349939
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.223515 -0.346004 0.34884
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.247591 -0.310013 0.297344
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.15509 -0.343332 0.343801
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.289273 -0.501956 0.297162
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.275156 -0.544043 0.327123
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.336966 -0.496322 0.265293
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.378228 -0.547226 0.259899
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.369441 -0.583915 0.204043
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.304866 -0.600652 0.199012
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.389777 -0.553514 0.146357
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.443013 -0.533855 0.264942
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.460534 -0.483673 0.252108
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.480094 -0.577489 0.279635
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.544176 -0.569137 0.28294
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.572288 -0.618609 0.316553
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.627053 -0.593624 0.345276
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.5337 -0.64655 0.354867
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.566965 -0.562445 0.218203
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.552999 -0.59328 0.178987
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.608376 -0.521667 0.214094
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.656865 -0.525584 0.171994
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.648247 -0.476814 0.120932
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.647709 -0.413446 0.148602
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.687945 -0.487537 0.065906
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.669102 -0.455827 0.0107924
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.712123 -0.519604 0.205622
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.715853 -0.484257 0.246929
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.76001 -0.551024 0.186717
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.822671 -0.544571 0.195567
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.856739 -0.59919 0.219619
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.913651 -0.589524 0.255231
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.938216 -0.653284 0.268516
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.996301 -0.644557 0.297872
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.04692 -0.664312 0.280255
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.05419 -0.694818 0.233345
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.09098 -0.651643 0.313809
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.846552 -0.523432 0.138611
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.821276 -0.544328 0.0946122
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.883748 -0.47769 0.14041
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.907815 -0.446107 0.0931957
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.862338 -0.401052 0.0745252
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.840952 -0.350717 0.116945
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.891773 -0.376207 0.0216686
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.851269 -0.341243 -0.0151865
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.966223 -0.421773 0.108902
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.974419 -0.381581 0.144049
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.0097 -0.441567 0.0762405
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.07436 -0.424122 0.0790822
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.0958 -0.436123 0.143092
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.14127 -0.416397 0.162614
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.06188 -0.474937 0.175617
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.07624 -0.496047 0.232868
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.04593 -0.462119 0.282579
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.04056 -0.487792 0.331991
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.01737 -0.414799 0.269076
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.969493 -0.387671 0.302486
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.957145 -0.327138 0.278997
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.01407 -0.288456 0.279394
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.04028 -0.276607 0.338497
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.01961 -0.244232 0.376423
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.08661 -0.308074 0.348752
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.918578 -0.426053 0.309931
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.902265 -0.454997 0.267444
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.886193 -0.422235 0.358783
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.829182 -0.44944 0.364502
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.830411 -0.497494 0.414111
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.779964 -0.544338 0.408974
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.799005 -0.588409 0.362727
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.770888 -0.577955 0.464589
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.780456 -0.403199 0.3763
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.783188 -0.368318 0.418474
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.733993 -0.401075 0.338404
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.683053 -0.361249 0.345794
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.691446 -0.315013 0.297889
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.743604 -0.272986 0.302851
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.752547 -0.240101 0.358777
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.808797 -0.202284 0.354411
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.811323 -0.154967 0.402321
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.62261 -0.39134 0.329805
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.619267 -0.442285 0.322686
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.57706 -0.355153 0.329383
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.516788 -0.377227 0.318859
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.485092 -0.386502 0.375933
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.417844 -0.394782 0.374176
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.392794 -0.409933 0.435428
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.402933 -0.373502 0.477358
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.351558 -0.44685 0.440136
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.484802 -0.333986 0.278179
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.48845 -0.282006 0.28217
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.446786 -0.361296 0.240079
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.420871 -0.329461 0.19212
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.466349 -0.329629 0.140186
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.363936 -0.35584 0.17562
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.353914 -0.407771 0.181295
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.328123 -0.317385 0.147433
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.266667 -0.326004 0.130935
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.240541 -0.266606 0.13369
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.175039 -0.259302 0.124149
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.13665 -0.307818 0.150557
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.154311 -0.205557 0.155226
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.261835 -0.357937 0.0739875
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.273871 -0.332979 0.0288173
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.242156 -0.413011 0.0787855
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.222187 -0.449555 0.0318688
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.232435 -0.516063 0.0474302
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.232309 -0.559571 -0.00359905
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.262347 -0.619247 0.0123601
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.172792 -0.576456 -0.0255701
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.161484 -0.433403 0.00954545
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.116415 -0.45645 0.0336707
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.159577 -0.390343 -0.0317138
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.107637 -0.381441 -0.0650202
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.074415 -0.331635 -0.0354681
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.00687003 -0.330571 -0.0489184
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.018178 -0.375514 -0.0644844
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0167543 -0.278797 -0.043689
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.114738 -0.369617 -0.130173
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.161192 -0.355314 -0.150344
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0662924 -0.374625 -0.161291
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0658011 -0.380337 -0.226952
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0203145 -0.422912 -0.243402
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0329186 -0.484809 -0.222054
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0337204 -0.40513 -0.221566
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0574878 -0.321082 -0.257393
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0438263 -0.312287 -0.308828
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0647107 -0.269213 -0.226574
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0566528 -0.207722 -0.249106
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.115423 -0.18058 -0.273114
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.113666 -0.134354 -0.301893
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.165577 -0.207037 -0.262447
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.221873 -0.179315 -0.273721
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.252031 -0.179892 -0.215656
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.255382 -0.204902 -0.326025
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.25995 -0.257907 -0.330096
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.279485 -0.165837 -0.364655
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.323852 -0.178818 -0.410455
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.336327 -0.126848 -0.450048
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.328549 -0.148256 -0.512016
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.295942 -0.119702 -0.546932
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.351914 -0.194041 -0.531167
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.382859 -0.198555 -0.385419
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.40566 -0.24475 -0.399744
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.405066 -0.162686 -0.344847
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.459787 -0.17157 -0.318399
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.502321 -0.121046 -0.338087
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.515753 -0.1305 -0.40399
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.5499 -0.172089 -0.419143
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.502838 -0.0902486 -0.437895
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.460879 -0.185318 -0.248647
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.424356 -0.16133 -0.214627
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.505732 -0.217061 -0.230554
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.522804 -0.220823 -0.166439
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.566865 -0.269107 -0.160416
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.598769 -0.270024 -0.0996552
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.539596 -0.32491 -0.173304
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.546583 -0.163349 -0.149279
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.589746 -0.141919 -0.174168
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.517297 -0.13449 -0.10587
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.536093 -0.0762283 -0.088083
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.493074 -0.0245082 -0.104561
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.511008 0.0357634 -0.0791262
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.48725 -0.0163922 -0.169656
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.545766 -0.0770354 -0.0206765
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.504842 -0.0809337 0.0130495
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.601789 -0.0762624 -0.00279248
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.620013 -0.0914896 0.0582586
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.660021 -0.145434 0.05479
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.635486 -0.201264 0.0271484
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.682563 -0.247179 0.0285286
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.580351 -0.224035 0.057267
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.6503 -0.0390839 0.088326
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.66856 0.00461352 0.0597538
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.661394 -0.0419939 0.14726
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.683883 0.00346273 0.184192
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.668823 -0.013163 0.248624
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.708329 -0.0605431 0.270332
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.694641 -0.0808114 0.332419
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.728374 -0.0640989 0.375574
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.652475 -0.11679 0.336945
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.746671 0.0242625 0.168784
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.774226 0.00349277 0.126589
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.76886 0.0695346 0.200786
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.826069 0.104041 0.19277
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.819621 0.158851 0.229706
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.781208 0.205071 0.196026
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.793486 0.26724 0.215258
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.820891 0.297452 0.17751
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.780566 0.285351 0.265146
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.883475 0.0718092 0.195097
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.927704 0.101067 0.198353
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.885535 0.0136031 0.192433
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.931753 -0.0185721 0.217855
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.917517 -0.0803419 0.233546
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.88957 -0.1177 0.182697
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.836341 -0.171679 0.209048
+  Sphere 0.0831172 -0.0831172 0.0831172 360
+TransformEnd
+TransformBegin
+  Translate 0.808495 -0.192612 0.139683
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.986468 -0.020787 0.176062
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.978927 -0.0177474 0.122223
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.04064 -0.0303081 0.197677
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.0922 -0.0289603 0.161643
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.14303 -0.00046283 0.192069
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.19534 0.00227714 0.149783
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.23914 -0.0301216 0.161583
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.19741 0.0337541 0.101796
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.10135 -0.094778 0.144949
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.10627 -0.133821 0.186012
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.11192 -0.106937 0.0892843
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.11582 -0.167678 0.0702822
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.06558 -0.184688 0.0257772
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.00333 -0.187233 0.0503771
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.965806 -0.21948 0.00430393
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.997967 -0.224244 0.104378
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.17591 -0.181037 0.0417292
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.2054 -0.140346 0.0219718
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.19623 -0.23501 0.0393918
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.17287 -0.286648 0.0648357
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.21024 -0.337331 0.0473893
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.27058 -0.313861 0.0404637
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.25625 -0.250443 0.017327
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.26411 -0.244798 -0.0510042
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.22712 -0.266162 -0.0848877
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.31092 -0.21541 -0.0706072
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.33077 -0.200605 -0.130256
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.30026 -0.149486 -0.160711
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.28511 -0.10579 -0.133289
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.29487 -0.151863 -0.217953
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.27864 -0.100611 -0.254446
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.31916 -0.0970025 -0.307713
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.31133 -0.153092 -0.341971
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.33906 -0.141131 -0.401472
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.31067 -0.185091 -0.443455
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.3345 -0.17519 -0.501605
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.21377 -0.0874872 -0.266059
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.18135 -0.129482 -0.265486
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.19665 -0.0324699 -0.268048
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.1348 -0.0133487 -0.274691
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.1123 0.00665194 -0.216196
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.1371 0.0628637 -0.197336
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.11639 0.115444 -0.213512
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.14691 0.160576 -0.190081
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.19341 0.137925 -0.157736
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.23354 0.164253 -0.116971
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.27717 0.127149 -0.0905211
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.27028 0.0668314 -0.091349
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.22794 0.0410025 -0.127972
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.1866 0.0748041 -0.160142
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.13009 0.03675 -0.320354
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.17444 0.0562657 -0.34586
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.07764 0.0579683 -0.336759
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.06484 0.11359 -0.366358
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.05732 0.106657 -0.431964
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.00946 0.0673002 -0.455417
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.0004 0.0721418 -0.519527
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.970486 0.129296 -0.532047
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.924875 0.133663 -0.580961
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.0146 0.15112 -0.344012
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.972858 0.124182 -0.322067
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.01372 0.210536 -0.343916
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.06126 0.253338 -0.348271
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.03537 0.312817 -0.351688
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.973343 0.305631 -0.327726
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.95933 0.240676 -0.327972
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.91084 0.231839 -0.375337
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.926785 0.22032 -0.424163
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.854226 0.242296 -0.359114
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.805142 0.24595 -0.398206
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.782124 0.182084 -0.405886
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.749545 0.167391 -0.461249
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.750188 0.102184 -0.471758
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.722423 0.0813049 -0.528883
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.698698 0.0191325 -0.526827
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.757647 0.280629 -0.370009
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.761131 0.299253 -0.318233
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.711039 0.285167 -0.404204
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.65431 0.305171 -0.383084
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.636398 0.366188 -0.411767
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.581529 0.390568 -0.378661
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.559968 0.467345 -0.395432
+  Sphere 0.0831172 -0.0831172 0.0831172 360
+TransformEnd
+TransformBegin
+  Translate 0.631046 0.501482 -0.382387
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.610999 0.257411 -0.389811
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.615345 0.22763 -0.435345
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.56761 0.253238 -0.349543
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.510256 0.225215 -0.361115
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.505726 0.166771 -0.328048
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.543538 0.120183 -0.362105
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.527691 0.171479 -0.26481
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.514378 0.114202 -0.231975
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.461377 0.27101 -0.345097
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.472361 0.312503 -0.309929
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.40648 0.257715 -0.362298
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.351112 0.281667 -0.341815
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.296345 0.269299 -0.376448
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.285105 0.222057 -0.397297
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.262301 0.317051 -0.386903
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.199873 0.312589 -0.405837
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.16134 0.286749 -0.359189
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.119091 0.259353 -0.375126
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.177284 0.287326 -0.299958
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.143849 0.268121 -0.249387
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.1758 0.2193 -0.216953
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.175058 0.160001 -0.25194
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.240139 0.231295 -0.20245
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.26289 0.200225 -0.145401
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.120785 0.317138 -0.210118
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.123157 0.320164 -0.154182
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0995219 0.363471 -0.236305
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0902057 0.420343 -0.204002
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.145122 0.454302 -0.191676
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.148538 0.496375 -0.160387
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.195629 0.432758 -0.212216
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.253497 0.460817 -0.207731
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.303893 0.426218 -0.231291
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.290022 0.378951 -0.252646
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.355335 0.451152 -0.230321
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.408643 0.420616 -0.243774
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.447072 0.458292 -0.285686
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.417355 0.476944 -0.340317
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.393553 0.530751 -0.344654
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.372572 0.554725 -0.397986
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.374303 0.516816 -0.447607
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.392129 0.458474 -0.442609
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.415904 0.441157 -0.389181
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.443409 0.40422 -0.191287
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.436749 0.430692 -0.144616
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.481844 0.361008 -0.200254
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.528781 0.344497 -0.159135
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.519189 0.288548 -0.122002
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.563217 0.287585 -0.0683521
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.45874 0.287811 -0.0925513
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.446176 0.241663 -0.0449629
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.584548 0.340756 -0.195562
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.590544 0.306193 -0.23649
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.632549 0.364539 -0.171292
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.691585 0.358842 -0.193292
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.726255 0.416234 -0.186697
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.692489 0.464471 -0.220309
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.705156 0.527925 -0.198005
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.691601 0.53981 -0.134714
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.708363 0.598631 -0.116153
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.722408 0.30988 -0.156773
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.733326 0.312332 -0.103117
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.742851 0.265121 -0.188955
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.765813 0.208245 -0.1669
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.716651 0.166198 -0.178541
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.661661 0.172215 -0.142302
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.696504 0.163353 -0.241923
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.821163 0.194162 -0.196186
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.825847 0.201295 -0.249682
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.85705 0.160451 -0.164936
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.9112 0.133627 -0.186507
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.951063 0.129447 -0.137812
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.988705 0.1834 -0.121978
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.02228 0.174285 -0.0670862
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.987975 0.166943 -0.0110515
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.953956 0.207794 0.0155467
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.943112 0.257401 -0.00859594
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.926082 0.195826 0.0642141
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.892491 0.071291 -0.204682
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.871408 0.0422383 -0.168896
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.901795 0.0505931 -0.258726
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.888254 -0.00819725 -0.278214
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.873734 -0.011332 -0.345858
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.861167 -0.0739165 -0.375471
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.860868 -0.0670779 -0.445464
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.817266 -0.0523179 -0.473501
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.910052 -0.0717285 -0.474702
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.93912 -0.0490867 -0.271949
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.987728 -0.0329663 -0.287392
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.928521 -0.0980397 -0.245097
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.972077 -0.144754 -0.2389
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.987748 -0.159864 -0.175187
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.03727 -0.125243 -0.146906
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.02272 -0.0734751 -0.117379
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.0616 -0.042298 -0.0809865
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.11635 -0.0682869 -0.0713157
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.1604 -0.0418246 -0.0439494
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.13244 -0.121976 -0.0981629
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.0945 -0.149789 -0.138529
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.951648 -0.200744 -0.272764
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.898176 -0.214056 -0.275943
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.993999 -0.222777 -0.308094
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.98504 -0.263302 -0.355734
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.988876 -0.230579 -0.415525
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.967704 -0.269043 -0.461103
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.994996 -0.263913 -0.508024
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.92359 -0.299145 -0.450905
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.02332 -0.319069 -0.360896
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.07324 -0.318105 -0.343327
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.997975 -0.367318 -0.379484
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.02157 -0.429814 -0.378684
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.05883 -0.436828 -0.431869
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.03153 -0.423795 -0.489865
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.968703 -0.451891 -0.497193
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.961669 -0.502531 -0.505437
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.922844 -0.415424 -0.493528
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.04827 -0.446908 -0.319075
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.0895 -0.479973 -0.317685
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.02979 -0.417343 -0.272371
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.04286 -0.422952 -0.21141
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.02927 -0.361826 -0.182101
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.961561 -0.345631 -0.183506
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.05051 -0.35887 -0.115353
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.05358 -0.297562 -0.0877668
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.01169 -0.474143 -0.184729
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.963131 -0.484961 -0.200738
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 1.03769 -0.510111 -0.147333
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 1.09489 -0.502972 -0.120774
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.1113 -0.55735 -0.0916647
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.05115 -0.575293 -0.0653116
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.00661 -0.559495 -0.114221
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.950956 -0.546847 -0.0829723
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.946799 -0.502749 -0.0500331
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.91079 -0.587895 -0.0876182
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.850995 -0.581197 -0.0609261
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.807325 -0.547695 -0.100013
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.827379 -0.486738 -0.121486
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.782881 -0.577416 -0.154195
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.826415 -0.639253 -0.0446437
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.836943 -0.679131 -0.0743514
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.79729 -0.644917 0.00504881
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.787464 -0.70139 0.0335927
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.831901 -0.71903 0.0807612
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.894622 -0.723254 0.0565343
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.936618 -0.73646 0.106202
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.934368 -0.78733 0.130071
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.973026 -0.695353 0.122203
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.729378 -0.693913 0.0655066
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.723795 -0.659137 0.105933
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.681539 -0.713623 0.0383856
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.62014 -0.699428 0.0499462
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.603317 -0.644172 0.0144805
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.623931 -0.646618 -0.0512387
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.537306 -0.635474 0.0241759
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.521573 -0.575073 0.0027864
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.580641 -0.752412 0.0389059
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.583634 -0.782514 -0.00462127
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.541245 -0.76243 0.079386
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.493526 -0.804706 0.0760092
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.438014 -0.781252 0.0440165
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.410503 -0.707773 0.0679726
+  Sphere 0.0831172 -0.0831172 0.0831172 360
+TransformEnd
+TransformBegin
+  Translate 0.511923 -0.869028 0.0591578
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.478082 -0.899779 0.0279597
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.564061 -0.888685 0.0801698
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.592424 -0.946555 0.0652897
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.629084 -0.946054 0.00844264
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.65251 -0.990454 -0.0114527
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.630369 -0.898255 -0.0228792
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.666537 -0.888193 -0.0754069
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.633197 -0.84806 -0.11601
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.649782 -0.852276 -0.178522
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.685277 -0.895443 -0.207554
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.695095 -0.871814 -0.260975
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.670516 -0.819501 -0.266653
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.643898 -0.805233 -0.2127
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.725426 -0.859554 -0.0583646
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.729252 -0.823964 -0.0167764
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.77038 -0.864321 -0.0957829
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.825813 -0.831084 -0.0925666
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.875762 -0.859164 -0.0583738
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.856588 -0.879439 0.00432247
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.89919 -0.912951 0.0403129
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.874821 -0.92676 0.101798
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.924058 -0.938259 0.14088
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.845441 -0.826104 -0.156438
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.845944 -0.871577 -0.187757
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.857794 -0.772539 -0.174273
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.87296 -0.751965 -0.234506
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.812492 -0.74586 -0.265615
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.902442 -0.692457 -0.23308
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.919663 -0.669066 -0.187239
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.906313 -0.661941 -0.283495
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.928061 -0.599476 -0.293124
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.994144 -0.603719 -0.313541
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.02565 -0.647784 -0.277135
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.993101 -0.625939 -0.375656
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 1.05549 -0.624428 -0.405316
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.881674 -0.566705 -0.321363
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.853459 -0.591435 -0.359802
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.873222 -0.510845 -0.307781
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.833238 -0.473104 -0.339493
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.843989 -0.408509 -0.327951
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.892723 -0.386991 -0.332438
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.796268 -0.373194 -0.314408
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.799897 -0.311143 -0.316138
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.783804 -0.284166 -0.374333
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.807989 -0.222857 -0.383272
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.804059 -0.319023 -0.421108
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.761044 -0.286302 -0.26603
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.710942 -0.301873 -0.257737
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.780861 -0.239706 -0.23738
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.748334 -0.201186 -0.195151
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.762916 -0.219532 -0.132853
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.740044 -0.281048 -0.118676
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.828017 -0.219382 -0.108951
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.764913 -0.135081 -0.2006
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.812885 -0.12248 -0.219745
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.722803 -0.0961912 -0.186823
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.725226 -0.034408 -0.182813
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.670071 -0.0099498 -0.213549
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.66342 -0.0320399 -0.279303
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.605913 -0.00837469 -0.3112
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.715828 -0.0219015 -0.319847
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.732425 -0.0204837 -0.117211
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.686639 -0.0242565 -0.0885525
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.781647 -0.00444353 -0.0948476
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.791349 0.0112866 -0.0325772
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.844073 -0.018025 -0.00663632
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.826706 -0.0827554 0.0079124
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.900048 -0.0183061 -0.0400771
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.793183 0.0782421 -0.0203618
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.817141 0.110348 -0.0557954
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.767553 0.102266 0.0275676
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.75011 0.164998 0.027198
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.696958 0.178081 0.0645875
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.672482 0.138029 0.0921395
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.679475 0.234964 0.0676618
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.700187 0.284562 0.0320259
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.675292 0.341208 0.0611213
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.658402 0.323361 0.120695
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.644482 0.256867 0.116847
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.578292 0.243733 0.111082
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.541677 0.279366 0.124965
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.562776 0.190398 0.0900928
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.504139 0.165217 0.103442
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.499113 0.104935 0.0742497
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.52824 0.0552811 0.106999
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.437748 0.0893781 0.0766954
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.484429 0.16113 0.167718
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.520515 0.15498 0.20497
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.428553 0.166593 0.183161
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.379563 0.188301 0.145915
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.351972 0.230003 0.187415
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.356936 0.197275 0.244531
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.409002 0.157383 0.24247
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.394331 0.0918362 0.256902
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.389675 0.0793602 0.310456
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.387118 0.0526896 0.214041
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.369132 -0.00911331 0.220341
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.30143 -0.0207897 0.21656
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.291309 -0.0852953 0.238494
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.269393 0.0189026 0.257122
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.3949 -0.044997 0.174778
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.381188 -0.0305992 0.122863
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.424091 -0.0923978 0.191141
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.449946 -0.129555 0.143703
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.493145 -0.166847 0.181398
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.546342 -0.137729 0.205301
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.563285 -0.0955147 0.183267
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.575648 -0.160619 0.247728
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.408791 -0.166451 0.109698
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.371238 -0.19389 0.139608
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.410366 -0.173516 0.0526404
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.367135 -0.20324 0.0159243
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.335525 -0.153199 -0.0178272
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.299462 -0.116874 0.0235175
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.367212 -0.124681 -0.0717548
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.329605 -0.0765988 -0.103017
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.397673 -0.245533 -0.0252773
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.450442 -0.235298 -0.0387526
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.369871 -0.295466 -0.0456557
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.393163 -0.333949 -0.0899535
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.384299 -0.396191 -0.0643811
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.383389 -0.445558 -0.107119
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.426313 -0.407951 -0.0120342
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.404056 -0.450576 0.0322473
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.356633 -0.320415 -0.14705
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.301932 -0.318219 -0.144983
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.38727 -0.313797 -0.19739
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.360623 -0.300614 -0.25593
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.360205 -0.349308 -0.301463
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.392289 -0.392167 -0.289125
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.333958 -0.343957 -0.354262
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.3433 -0.383211 -0.403471
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.321861 -0.351963 -0.458021
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.328554 -0.380069 -0.516369
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.283075 -0.360615 -0.560204
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.285815 -0.298173 -0.570043
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.259338 -0.27076 -0.612771
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.226296 -0.294713 -0.654701
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.259644 -0.214768 -0.616502
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.407641 -0.405812 -0.414087
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.42074 -0.454967 -0.429453
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.445855 -0.365172 -0.399299
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.511401 -0.377801 -0.407457
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.544393 -0.322304 -0.387036
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.555121 -0.316173 -0.320962
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.520976 -0.333283 -0.283387
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.601913 -0.289267 -0.308671
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.535106 -0.4309 -0.374314
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.578298 -0.457588 -0.391327
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.510039 -0.449697 -0.326535
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.533981 -0.493566 -0.287147
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.564068 -0.464859 -0.235651
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.58945 -0.507366 -0.189608
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.631639 -0.556995 -0.208096
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.626522 -0.47105 -0.141184
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.482112 -0.535442 -0.270125
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.492179 -0.588386 -0.258183
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.426363 -0.518414 -0.272671
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.374056 -0.555446 -0.265833
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.320159 -0.513787 -0.271861
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.263574 -0.540881 -0.246875
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.270853 -0.548319 -0.180561
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.20376 -0.508894 -0.257082
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.371626 -0.606418 -0.309148
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.355089 -0.655202 -0.295763
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.385874 -0.593108 -0.363901
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.393466 -0.633808 -0.415525
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.408784 -0.596978 -0.469554
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.357536 -0.557468 -0.487228
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.452886 -0.557775 -0.458306
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.44088 -0.679129 -0.407873
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.431911 -0.728249 -0.431766
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.484056 -0.664501 -0.37413
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.528192 -0.71138 -0.357713
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.584529 -0.686171 -0.337794
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.614632 -0.646536 -0.382464
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.676312 -0.629488 -0.361086
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.693037 -0.580563 -0.352403
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.715645 -0.670192 -0.357026
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.501277 -0.75536 -0.31372
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.50927 -0.806765 -0.319447
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.472115 -0.732739 -0.268379
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.453659 -0.772641 -0.218481
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.448044 -0.737855 -0.161087
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.508238 -0.716333 -0.139157
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.403678 -0.684444 -0.168065
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.391204 -0.653455 -0.11073
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.39674 -0.804355 -0.233126
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.38234 -0.847535 -0.20482
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.369387 -0.787663 -0.280807
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.320828 -0.821623 -0.307093
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.265796 -0.837988 -0.269332
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.24113 -0.884742 -0.27334
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.253354 -0.801221 -0.225399
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.21129 -0.810707 -0.177629
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.225825 -0.771701 -0.125211
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.241577 -0.69687 -0.153499
+  Sphere 0.0831172 -0.0831172 0.0831172 360
+TransformEnd
+TransformBegin
+  Translate 0.144856 -0.810531 -0.195975
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.129705 -0.777909 -0.236601
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.109616 -0.84482 -0.166134
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0469781 -0.851832 -0.18085
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0405329 -0.914904 -0.206921
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0696071 -0.918629 -0.267732
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0644766 -0.957986 -0.16915
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.00531197 -0.844154 -0.12703
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0271616 -0.846407 -0.0767757
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0515064 -0.833023 -0.13528
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0958658 -0.832326 -0.085126
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.131093 -0.776752 -0.095861
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.165754 -0.759343 -0.0397173
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.129807 -0.743607 0.0102273
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.206706 -0.712598 -0.0499691
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.132286 -0.889633 -0.0903122
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.147981 -0.909443 -0.137687
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.135201 -0.919078 -0.0391481
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.15389 -0.97931 -0.031933
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.109383 -1.00626 0.0121056
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.120318 -1.07124 0.0188181
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0815496 -1.10489 0.0113842
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.168154 -1.08718 0.0446835
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.220898 -0.984741 -0.0147372
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.238903 -0.964642 0.0327828
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.255626 -1.01235 -0.0534757
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.319649 -1.02057 -0.0473877
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.351438 -0.980057 -0.0888492
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.348131 -0.914455 -0.0822514
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.301994 -0.884586 -0.11346
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.29517 -0.823294 -0.107486
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.33688 -0.791455 -0.0770888
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.382679 -0.822706 -0.0467041
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.391472 -0.881686 -0.052888
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.338059 -1.08332 -0.0566361
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.311217 -1.11696 -0.0920769
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.379438 -1.10165 -0.0255877
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.331207 -1.11061 -0.206262
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.368597 -1.15293 -0.237008
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.345751 -1.15938 -0.30082
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.279496 -1.13567 -0.293728
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.270158 -1.1253 -0.227246
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.229732 -1.07237 -0.221798
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.246176 -1.02803 -0.199102
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.176042 -1.07818 -0.244464
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.13206 -1.03169 -0.24429
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0680068 -1.05323 -0.255196
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0531377 -1.10397 -0.219362
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0432719 -1.08873 -0.154313
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.00774682 -1.04821 -0.143984
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0764096 -1.11015 -0.115976
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.141977 -0.980677 -0.285201
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.14642 -0.989978 -0.338472
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.144877 -0.926864 -0.261482
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.160066 -0.876732 -0.293811
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.212873 -0.844569 -0.263318
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.222382 -0.784361 -0.288073
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.27017 -0.881708 -0.261391
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.299594 -0.881244 -0.322952
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.107991 -0.840627 -0.307159
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0779929 -0.826898 -0.262488
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0946386 -0.829129 -0.36332
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0351096 -0.808776 -0.383178
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0304939 -0.830289 -0.44787
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0328946 -0.834942 -0.469915
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0508417 -0.887215 -0.454431
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.022415 -0.744933 -0.371592
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.00160038 -0.713408 -0.405833
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0309416 -0.73105 -0.316775
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0104305 -0.677649 -0.284783
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.00770319 -0.696069 -0.221118
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.000823617 -0.645354 -0.17385
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0623997 -0.619997 -0.159133
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0303866 -0.66904 -0.119588
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0457916 -0.644533 -0.304925
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.045072 -0.592272 -0.306462
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0935117 -0.674268 -0.317896
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.145673 -0.647952 -0.340849
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.197797 -0.693821 -0.335745
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.196855 -0.743773 -0.378257
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.175858 -0.796693 -0.367963
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.195813 -0.834347 -0.411677
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.21661 -0.801822 -0.458826
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.239592 -0.817288 -0.515575
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.273096 -0.775784 -0.545004
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.28052 -0.718998 -0.521454
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.253597 -0.705433 -0.469132
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.221582 -0.744366 -0.434462
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.141936 -0.617537 -0.401325
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.1833 -0.588341 -0.41919
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0920675 -0.628256 -0.431611
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0762603 -0.599115 -0.488346
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0481656 -0.645851 -0.528962
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0925143 -0.693534 -0.543196
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0699183 -0.740027 -0.586028
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0924038 -0.728806 -0.647767
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.15728 -0.742447 -0.650349
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0327867 -0.546536 -0.482288
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0101727 -0.523915 -0.529257
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0156757 -0.530066 -0.428573
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0301256 -0.48589 -0.415519
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.00538409 -0.422569 -0.409453
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0145053 -0.389084 -0.467262
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0749416 -0.397661 -0.493443
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0827299 -0.371578 -0.550706
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.100135 -0.319205 -0.563185
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.130504 -0.292301 -0.528327
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0866375 -0.29177 -0.613613
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.088026 -0.495118 -0.448979
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.108197 -0.456386 -0.480443
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.116915 -0.54505 -0.444962
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0924072 -0.597173 -0.419236
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.135497 -0.644071 -0.428578
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.177368 -0.625412 -0.477722
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.170284 -0.557371 -0.476489
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.22613 -0.525189 -0.450148
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.232086 -0.509811 -0.397716
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.267887 -0.522241 -0.491821
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.329737 -0.499636 -0.483993
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.354315 -0.461116 -0.537196
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.324807 -0.399528 -0.55322
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.355946 -0.371795 -0.603629
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.327089 -0.353779 -0.501978
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.37083 -0.550415 -0.473098
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.371267 -0.594996 -0.504822
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.400852 -0.550633 -0.423434
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.431234 -0.600518 -0.398712
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.405819 -0.617452 -0.336888
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.350707 -0.650082 -0.346175
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.400256 -0.56723 -0.294025
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.496708 -0.58444 -0.399279
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.515098 -0.534382 -0.385127
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.53782 -0.624925 -0.406938
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.601436 -0.620495 -0.417096
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.615644 -0.649035 -0.477175
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.683127 -0.657073 -0.481466
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.599826 -0.618194 -0.527843
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.629188 -0.649519 -0.363322
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.610329 -0.697504 -0.345104
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.671046 -0.619474 -0.339312
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.69614 -0.625118 -0.27974
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.665198 -0.58408 -0.234766
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.648224 -0.522144 -0.254675
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.698859 -0.58209 -0.175977
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.665608 -0.555418 -0.124136
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.762896 -0.60868 -0.284175
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.780822 -0.566404 -0.31207
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.79825 -0.641951 -0.249624
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.859971 -0.623254 -0.237831
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.901859 -0.676264 -0.243408
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.967192 -0.65934 -0.253389
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.00914 -0.715297 -0.24692
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.981652 -0.766417 -0.268586
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.970449 -0.782398 -0.320268
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.994408 -0.760379 -0.363537
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.944378 -0.83092 -0.329089
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.867271 -0.592902 -0.179882
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.83933 -0.609238 -0.137733
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.908586 -0.550088 -0.177062
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.917289 -0.508088 -0.126874
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.874434 -0.455195 -0.121982
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.819896 -0.474984 -0.0927191
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.860363 -0.419985 -0.179256
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.8297 -0.451355 -0.227438
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.984111 -0.495308 -0.126499
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.00734 -0.477132 -0.170431
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.01786 -0.504006 -0.0775517
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.07917 -0.49308 -0.0724216
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.11637 -0.533609 -0.114757
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.14054 -0.575508 -0.0923127
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.13089 -0.515091 -0.166432
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.15887 -0.550694 -0.213313
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.13317 -0.542578 -0.273853
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.16213 -0.551193 -0.315764
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.08039 -0.518269 -0.276441
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.04996 -0.499588 -0.32997
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.06888 -0.43447 -0.341757
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.04022 -0.385933 -0.307502
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.04793 -0.325489 -0.33246
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.01274 -0.304512 -0.366476
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.09203 -0.295723 -0.310496
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.983685 -0.509981 -0.329769
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.958685 -0.521977 -0.285971
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.958412 -0.50937 -0.381411
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.900785 -0.532039 -0.392242
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.912439 -0.588566 -0.4275
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.853264 -0.624643 -0.432125
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.858158 -0.678337 -0.393022
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.854518 -0.658267 -0.488783
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.861551 -0.490167 -0.424705
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.877487 -0.463632 -0.468936
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.806644 -0.485174 -0.405004
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.764439 -0.440676 -0.418987
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.761752 -0.394781 -0.371119
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.818879 -0.356763 -0.368644
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.837249 -0.32727 -0.425552
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.891745 -0.292848 -0.412585
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.90544 -0.254171 -0.462745
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.704421 -0.466618 -0.426677
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.6894 -0.51434 -0.400162
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.666928 -0.431286 -0.450301
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.601798 -0.442096 -0.448883
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.581929 -0.446546 -0.513389
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.519429 -0.461824 -0.522886
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.505821 -0.473631 -0.586126
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.484464 -0.521648 -0.597752
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.515718 -0.437223 -0.626777
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.567029 -0.392087 -0.419294
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.59089 -0.341458 -0.415152
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.511039 -0.404691 -0.401029
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.475508 -0.367646 -0.359833
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.501511 -0.372056 -0.296961
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.411969 -0.391241 -0.355448
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.396593 -0.44101 -0.367596
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.369265 -0.351637 -0.344078
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.307355 -0.35919 -0.342841
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.2759 -0.30191 -0.351153
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.209138 -0.311892 -0.345389
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.184875 -0.346732 -0.395922
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.185564 -0.250366 -0.350472
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.292288 -0.392362 -0.285765
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.313065 -0.37588 -0.23828
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.262116 -0.439152 -0.287886
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.24658 -0.477125 -0.235619
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.23452 -0.541152 -0.251513
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.216783 -0.583984 -0.202084
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.264211 -0.591932 -0.156981
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.193913 -0.641652 -0.224806
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.191263 -0.4518 -0.20423
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.140277 -0.451906 -0.220464
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.205191 -0.431528 -0.151511
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.169086 -0.40193 -0.109368
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.190344 -0.336239 -0.097368
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.184648 -0.313908 -0.0322807
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.138869 -0.288011 -0.0154305
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.224989 -0.329861 0.00578392
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.167273 -0.440449 -0.0546259
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.199925 -0.481058 -0.041738
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.118558 -0.435316 -0.0208192
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.107853 -0.463094 0.0347352
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0704964 -0.520104 0.0307
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.105673 -0.575219 0.0118713
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0253866 -0.511461 -0.00941819
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.079576 -0.422262 0.0814719
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0775412 -0.436972 0.132419
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0588667 -0.371568 0.063707
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.0343925 -0.322613 0.0989803
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0751266 -0.283848 0.133567
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.0689231 -0.270068 0.186244
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.123435 -0.265394 0.105778
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.160749 -0.217145 0.129298
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.15942 -0.17349 0.0799137
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.223315 -0.239827 0.145514
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.24595 -0.283094 0.120994
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.253941 -0.213851 0.186646
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.294322 -0.249733 0.224677
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.291299 -0.226099 0.287413
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.31678 -0.263293 0.333536
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.358686 -0.244368 0.364296
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.286893 -0.309276 0.342553
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.356551 -0.250626 0.197117
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.387155 -0.293345 0.21115
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.375439 -0.206206 0.161572
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.435897 -0.199645 0.140885
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.447907 -0.134688 0.141448
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.447777 -0.108646 0.202511
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.462153 -0.137424 0.246592
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.431909 -0.0564476 0.200286
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.444951 -0.225922 0.081822
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.405638 -0.229557 0.0467904
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.49841 -0.245362 0.0697931
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.517887 -0.267567 0.0134035
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.556521 -0.325424 0.0223336
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.575505 -0.349548 -0.0365326
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.511453 -0.359646 0.0502291
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.554292 -0.220086 -0.0162005
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.606828 -0.219069 -0.00380576
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.526095 -0.176431 -0.0467206
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.561588 -0.129321 -0.0704062
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.530843 -0.0716242 -0.0635823
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.56816 -0.0164937 -0.0805799
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.504242 -0.0649846 -0.00177354
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.576639 -0.145906 -0.133784
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.535932 -0.154848 -0.16995
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.632804 -0.150122 -0.14597
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.659449 -0.161113 -0.205074
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.690394 -0.224192 -0.204438
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.659649 -0.276489 -0.170895
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.702095 -0.32847 -0.167914
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.600039 -0.294522 -0.197343
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.704484 -0.115082 -0.221961
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.704354 -0.0687243 -0.196095
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.736073 -0.127199 -0.269771
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.759282 -0.0814099 -0.303626
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.760726 -0.103194 -0.364934
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.792523 -0.159363 -0.385412
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.782674 -0.166111 -0.452767
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.733915 -0.188255 -0.467161
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.825629 -0.167854 -0.487005
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.819458 -0.0622732 -0.281594
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.844351 -0.0940526 -0.246295
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.844446 -0.0175363 -0.304555
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.899728 0.00416887 -0.286711
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.900302 0.0674452 -0.311313
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.943933 0.101735 -0.274099
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.955365 0.165887 -0.297776
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.911493 0.19909 -0.309143
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.00706 0.181225 -0.312034
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.954222 -0.0342401 -0.302245
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.973894 -0.0342923 -0.354126
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.980587 -0.0617345 -0.258249
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.0305 -0.105128 -0.261532
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.00219 -0.165855 -0.278523
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.965568 -0.199289 -0.232942
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.91828 -0.255161 -0.258977
+  Sphere 0.0831172 -0.0831172 0.0831172 360
+TransformEnd
+TransformBegin
+  Translate -0.87098 -0.265745 -0.1984
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.0698 -0.107914 -0.208666
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.05297 -0.0953534 -0.158871
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.12309 -0.130545 -0.221637
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.16681 -0.135278 -0.174836
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.22435 -0.110349 -0.198937
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.26315 -0.07981 -0.15522
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.25819 -0.0848261 -0.102666
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.31117 -0.0526691 -0.173333
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.17296 -0.19983 -0.149649
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.21251 -0.23169 -0.16545
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.13248 -0.212553 -0.110205
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.13122 -0.268878 -0.0728692
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.07166 -0.271705 -0.0419708
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.01871 -0.279235 -0.0817331
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.960026 -0.267331 -0.0482588
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.02017 -0.336327 -0.116598
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.18242 -0.268965 -0.0314845
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.19894 -0.218263 -0.0167632
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.20536 -0.323139 -0.0132059
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.17721 -0.378525 -0.0173234
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.21822 -0.421096 0.0136483
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.27391 -0.388465 0.0191942
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.25789 -0.325448 0.0187099
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.24955 -0.305427 0.0804721
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.19993 -0.312784 0.106584
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.29565 -0.278026 0.104473
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.30026 -0.256145 0.164803
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.27201 -0.197215 0.176949
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.26041 -0.158309 0.137911
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.25955 -0.190028 0.233617
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.23415 -0.138383 0.264042
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.2538 -0.141244 0.326643
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.29652 -0.0918171 0.335809
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.3143 -0.0848723 0.399735
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.37364 -0.054711 0.40556
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.38834 -0.0466853 0.466035
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.16675 -0.136828 0.260378
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.1368 -0.181778 0.251133
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.14247 -0.0868143 0.266555
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.08374 -0.0678913 0.245885
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.0849 -0.0485691 0.181176
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.1194 0.00592703 0.171093
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.17506 0.0056839 0.149744
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.19124 0.0660027 0.142281
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.14674 0.102733 0.156101
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.14147 0.163537 0.151658
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.08498 0.187362 0.164566
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.03773 0.1544 0.178915
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.04745 0.095233 0.190454
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.10052 0.0664227 0.177272
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.06037 -0.0222392 0.288113
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.09177 0.00421554 0.321715
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.00152 -0.0158696 0.28897
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.974226 0.0203527 0.330568
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.935211 -0.0161945 0.376055
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.969915 -0.048448 0.424322
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.935985 -0.0802821 0.475769
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.976938 -0.126637 0.503215
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.985647 -0.178456 0.463197
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.936454 0.0618487 0.29993
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.892615 0.0430974 0.273921
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.941788 0.121266 0.304343
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.990107 0.152149 0.331228
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.972728 0.21536 0.328246
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.925691 0.219251 0.278843
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.899585 0.158312 0.274324
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.842599 0.159666 0.308185
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.84404 0.161791 0.361425
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.791914 0.16337 0.277671
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.734739 0.158392 0.301709
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.715803 0.0918922 0.304727
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.670523 0.0807287 0.353379
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.656067 0.0154388 0.360528
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.606061 0.00102139 0.40532
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.608203 -0.0576232 0.425148
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.690142 0.199546 0.271658
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.700459 0.221702 0.221983
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.640724 0.212649 0.298532
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.592609 0.244114 0.266245
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.579237 0.301594 0.299151
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.628252 0.344972 0.297913
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.639634 0.379953 0.229687
+  Sphere 0.0831172 -0.0831172 0.0831172 360
+TransformEnd
+TransformBegin
+  Translate -0.565485 0.409446 0.213707
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.535038 0.210101 0.259431
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.517883 0.180073 0.301586
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.509764 0.212562 0.206108
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.459049 0.174068 0.191561
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.475867 0.114171 0.171615
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.514407 0.0781557 0.215472
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.507767 0.114089 0.11272
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.467889 0.0983725 0.0586109
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.420697 0.208469 0.148563
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.441939 0.248395 0.115175
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.364969 0.190233 0.140464
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.320392 0.221307 0.10447
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.331484 0.220917 0.0417316
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.348581 0.177021 0.0167832
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.322386 0.269917 0.00761074
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.33044 0.28037 -0.0561202
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.306494 0.339708 -0.0699258
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.309783 0.380393 -0.0365232
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.283936 0.34596 -0.12426
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.277078 0.402521 -0.15546
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.326646 0.422925 -0.196618
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.324352 0.383985 -0.251595
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.387059 0.424596 -0.170522
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.434677 0.460473 -0.204427
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.248167 0.450791 -0.116962
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.269713 0.499562 -0.108495
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.196068 0.444068 -0.0943006
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.165103 0.486043 -0.0609735
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.192993 0.502732 -0.00229537
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.17809 0.547377 0.0259343
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.239465 0.469844 0.0164373
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.276115 0.47467 0.0677898
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.310994 0.424402 0.0845717
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.290008 0.374244 0.0792912
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.362218 0.435983 0.110295
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.402852 0.385193 0.1237
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.405683 0.378385 0.189276
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.34684 0.360488 0.217099
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.337144 0.30221 0.235579
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.279963 0.290433 0.261292
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.238245 0.334215 0.264483
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.251442 0.393802 0.247227
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.306841 0.405987 0.228994
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.464486 0.39836 0.100814
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.484231 0.448686 0.100743
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.496574 0.353791 0.0845704
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.548234 0.355673 0.0472317
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.537548 0.32021 -0.0099479
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.491153 0.354396 -0.0437276
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.515056 0.258665 -0.00332701
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.520766 0.219086 -0.0568336
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.594243 0.324334 0.0810694
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.578579 0.288574 0.119581
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.651239 0.331635 0.0695033
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.701427 0.297529 0.0952135
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.757843 0.334873 0.0940238
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.753069 0.391415 0.128542
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.812571 0.423802 0.133451
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.812494 0.468679 0.180707
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.778904 0.519571 0.16595
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.70852 0.238765 0.0633037
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.707449 0.23447 0.0108373
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.720743 0.19091 0.0940431
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.740598 0.135145 0.0726603
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.690719 0.0853013 0.0840343
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.638983 0.0969635 0.0385278
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.672421 0.0831451 0.149378
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.795371 0.115013 0.106813
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.805236 0.134191 0.155354
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.824691 0.0682786 0.0837494
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.876522 0.0393478 0.113429
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.933342 0.0419041 0.0790303
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.943922 0.102753 0.0492473
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.00013 0.0962493 0.013019
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.00888 0.14845 -0.0177475
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.06023 0.164112 -0.0397817
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.10487 0.128356 -0.0389867
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.06415 0.213906 -0.0616359
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.857869 -0.0226229 0.129004
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.848721 -0.0587518 0.0859066
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.844711 -0.0343426 0.184714
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.833244 -0.0932145 0.206226
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.795914 -0.0897564 0.261084
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.779363 -0.145314 0.292271
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.740752 -0.138543 0.347152
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.695346 -0.10958 0.34963
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.754782 -0.167003 0.394989
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.889005 -0.127732 0.217083
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.931215 -0.110142 0.244681
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.887762 -0.179876 0.192419
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.933469 -0.224057 0.202082
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.9514 -0.243057 0.136594
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.99421 -0.20059 0.109276
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.972565 -0.155415 0.0717618
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.01021 -0.113198 0.043241
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.07216 -0.129 0.0459198
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.11486 -0.100618 0.0175387
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.0932 -0.172414 0.0834732
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.05289 -0.205451 0.117858
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.909985 -0.277197 0.237584
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.858205 -0.291696 0.228484
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.94524 -0.305306 0.274174
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.922363 -0.349758 0.314989
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.907503 -0.320926 0.375717
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.857749 -0.356635 0.408633
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.839667 -0.406763 0.394382
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.839227 -0.329205 0.452307
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.97015 -0.394319 0.327558
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.02126 -0.383744 0.32358
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.947808 -0.446441 0.343277
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.979662 -0.501412 0.347209
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.01365 -0.502099 0.404199
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.973624 -0.477598 0.457254
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.925945 -0.51864 0.472506
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.933388 -0.564814 0.495183
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.873303 -0.50828 0.450836
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.0143 -0.513271 0.292325
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.05712 -0.544974 0.295657
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.993757 -0.492769 0.243138
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.01879 -0.502651 0.184451
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.01736 -0.447581 0.140439
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.05543 -0.396977 0.169
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.953747 -0.423401 0.127677
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.955245 -0.388057 0.0702863
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.990411 -0.556331 0.152298
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.944991 -0.575037 0.171887
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -1.01869 -0.584611 0.109293
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -1.07622 -0.568789 0.0927709
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.10227 -0.625814 0.0779509
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -1.05168 -0.657655 0.0468094
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.999687 -0.639092 0.0811959
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.944082 -0.628831 0.0417039
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.947138 -0.581691 0.0140474
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.899192 -0.667931 0.0422331
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.844065 -0.659445 0.00656331
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.791991 -0.633129 0.0445552
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.805693 -0.571427 0.0669699
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.779587 -0.671559 0.100311
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.82774 -0.721272 -0.0196087
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.833596 -0.766173 0.00814331
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.80569 -0.717619 -0.0742959
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.785708 -0.766931 -0.110767
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.837667 -0.78472 -0.151286
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.848716 -0.848076 -0.155522
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.879866 -0.855493 -0.211618
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.8536 -0.857512 -0.259807
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.934288 -0.858395 -0.208463
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.7294 -0.759268 -0.14567
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.730858 -0.732244 -0.192624
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.677662 -0.781903 -0.127356
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.618333 -0.77369 -0.160658
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.583684 -0.72356 -0.136019
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.558526 -0.73566 -0.0748174
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.534152 -0.69805 -0.174479
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.497344 -0.643958 -0.149624
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.581205 -0.82807 -0.163305
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.577591 -0.860834 -0.119292
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.551701 -0.841848 -0.212902
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.511757 -0.890316 -0.219577
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.454123 -0.876407 -0.18267
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.418079 -0.820713 -0.226441
+  Sphere 0.0831172 -0.0831172 0.0831172 360
+TransformEnd
+TransformBegin
+  Translate -0.535486 -0.948392 -0.198014
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.500431 -0.98689 -0.185107
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.593399 -0.958363 -0.197847
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.619925 -1.01056 -0.176595
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.641161 -1.00564 -0.113936
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.668148 -1.04598 -0.0947071
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.625059 -0.962428 -0.0794966
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.641757 -0.952749 -0.0184405
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.592226 -0.931554 0.0199537
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.549693 -0.981223 0.0342253
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.555132 -1.02359 0.0759599
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.509377 -1.06048 0.0664773
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.47649 -1.04656 0.0223552
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.502807 -0.998125 -0.00198293
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.696617 -0.916619 -0.0188351
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.702438 -0.871174 -0.0506138
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.743003 -0.938424 0.00779128
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.797598 -0.903321 0.024263
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.852951 -0.938259 0.00511253
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.914176 -0.905865 0.00511265
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.964525 -0.945458 -0.0159179
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.960468 -0.961915 -0.0800408
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.989924 -0.916907 -0.116732
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.804023 -0.891318 0.08958
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.796615 -0.933346 0.122842
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.816072 -0.836562 0.107124
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.827061 -0.821342 0.17069
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.769863 -0.813433 0.199095
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.867673 -0.766639 0.175287
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.895914 -0.752225 0.133755
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.870476 -0.742566 0.227602
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.889969 -0.683908 0.237842
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.946527 -0.68498 0.278636
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.999955 -0.718494 0.250986
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.939385 -0.710673 0.341556
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.934416 -0.665379 0.392424
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.844118 -0.643505 0.259601
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.811438 -0.665134 0.295307
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.836281 -0.590542 0.241177
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.789132 -0.551973 0.263028
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.801674 -0.488239 0.252364
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.850009 -0.469701 0.239093
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.756567 -0.455593 0.260724
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.755958 -0.390129 0.254925
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.716379 -0.362842 0.30569
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.738188 -0.297769 0.321758
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.720734 -0.391096 0.360971
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.735817 -0.368459 0.194708
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.685231 -0.377405 0.177861
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.768734 -0.334346 0.162329
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.754445 -0.310139 0.102215
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.792542 -0.333546 0.0536177
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.765249 -0.329291 -0.0115558
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.808524 -0.400838 0.0604098
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.755945 -0.245578 0.101393
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.79137 -0.220141 0.131103
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.720244 -0.215757 0.0670716
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.722235 -0.151997 0.060311
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.668387 -0.119375 0.0894501
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.670187 -0.126248 0.1561
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.633081 -0.17779 0.176783
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.645532 -0.0710092 0.184847
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.735192 -0.136162 -0.00175464
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.705337 -0.154465 -0.043561
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.775869 -0.0947306 -0.0137824
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.783945 -0.065587 -0.0714651
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.846057 -0.0751278 -0.0975088
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.859338 -0.140107 -0.106201
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.895003 -0.0447581 -0.0613333
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.773076 5.4419e-05 -0.0675271
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.778528 0.026144 -0.0205001
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.758297 0.0234907 -0.118513
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.721406 0.0759633 -0.123618
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.731942 0.116924 -0.175002
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.757988 0.0972832 -0.216529
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.707713 0.172203 -0.176868
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.682823 0.194637 -0.124451
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.685985 0.260552 -0.132244
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.715465 0.269181 -0.190967
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.703582 0.211332 -0.224715
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.649243 0.204928 -0.264854
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.630527 0.246968 -0.29444
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.617654 0.158346 -0.268987
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.562905 0.147515 -0.30159
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.513014 0.117738 -0.265402
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.505456 0.142486 -0.203053
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.521193 0.0565475 -0.258424
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.577634 0.115597 -0.358651
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.61657 0.0776976 -0.35842
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.545623 0.125318 -0.407709
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.501703 0.168071 -0.418515
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.479553 0.16128 -0.482673
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.534443 0.133589 -0.511263
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.558582 0.094094 -0.462227
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.535943 0.0327927 -0.470231
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.544271 0.00593472 -0.515062
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.506834 0.00865424 -0.425258
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.477514 -0.0491887 -0.422179
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.413981 -0.0450159 -0.440111
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.410179 -0.0425339 -0.504972
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.379792 0.0048402 -0.415282
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.484253 -0.0820692 -0.365452
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.4799 -0.053521 -0.319341
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.484283 -0.141466 -0.367366
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.503175 -0.183319 -0.320936
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.552527 -0.223514 -0.346846
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.603832 -0.19257 -0.370851
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.614682 -0.141691 -0.353917
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.638049 -0.223286 -0.406134
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.453232 -0.217985 -0.29264
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.417072 -0.242619 -0.322895
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.44967 -0.218654 -0.233927
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.407206 -0.253467 -0.200828
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.360568 -0.216161 -0.169511
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.315871 -0.192044 -0.215765
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.391322 -0.166708 -0.135711
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.358197 -0.139272 -0.0864998
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.432664 -0.294095 -0.157596
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.472445 -0.277907 -0.124369
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.405074 -0.347678 -0.150433
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.415803 -0.389325 -0.0998834
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.402743 -0.452134 -0.123743
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.385379 -0.501328 -0.082926
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.458145 -0.474593 -0.159952
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.518871 -0.472208 -0.126321
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.375361 -0.372651 -0.0471809
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.324007 -0.358489 -0.0511913
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.398508 -0.377247 0.00456923
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.370188 -0.359082 0.0607041
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.346933 -0.411292 0.100337
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.371877 -0.458772 0.102722
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.302766 -0.399503 0.134583
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.27874 -0.440489 0.176962
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.222243 -0.413061 0.195754
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.178593 -0.450329 0.23412
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.194221 -0.468625 0.297073
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.230553 -0.428763 0.335258
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.244454 -0.440538 0.390599
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.232263 -0.489202 0.418562
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.273795 -0.404985 0.422547
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.319506 -0.465774 0.225212
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.313825 -0.518785 0.242653
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.361436 -0.429154 0.244111
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.402336 -0.438106 0.28848
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.432966 -0.381745 0.303384
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.477105 -0.391055 0.352034
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.487047 -0.439662 0.376469
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.514286 -0.349432 0.362818
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.441788 -0.48716 0.272033
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.444356 -0.536243 0.295919
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.467145 -0.479545 0.220627
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.510484 -0.521173 0.191531
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.528424 -0.484442 0.137371
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.571507 -0.518459 0.101308
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.628444 -0.52096 0.132795
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.584459 -0.492325 0.0384469
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.482212 -0.576605 0.178425
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.507255 -0.620865 0.190262
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.427745 -0.57443 0.156546
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.392658 -0.625261 0.152363
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.329316 -0.610035 0.127276
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.335997 -0.597696 0.0597526
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.274859 -0.57887 0.0394431
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.356417 -0.652562 0.0185063
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.381581 -0.661655 0.210758
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.387569 -0.712698 0.21067
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.373929 -0.628936 0.25796
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.370136 -0.648117 0.318753
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.346203 -0.606719 0.362699
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.317729 -0.638747 0.412726
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.30036 -0.578511 0.336157
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.425907 -0.675213 0.342005
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.426269 -0.720067 0.37358
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.475501 -0.647087 0.32966
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.530622 -0.672007 0.344998
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.583311 -0.629368 0.333142
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.576525 -0.570059 0.365781
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.620996 -0.523956 0.353033
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.662774 -0.530062 0.320609
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.605575 -0.473252 0.368856
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.547496 -0.728798 0.312531
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.579267 -0.763133 0.335616
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.527367 -0.737295 0.25944
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.537839 -0.787006 0.222713
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.563093 -0.76281 0.166176
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.51768 -0.745198 0.118784
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.609206 -0.80698 0.146014
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.643632 -0.789624 0.091359
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.48869 -0.832021 0.223895
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.49019 -0.870492 0.186961
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.447679 -0.829322 0.265292
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.403797 -0.871341 0.281616
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.365066 -0.889267 0.232293
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.343892 -0.937619 0.240855
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.350525 -0.859528 0.183936
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.301564 -0.874753 0.141001
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.318052 -0.839614 0.0879166
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.301376 -0.762452 0.0961914
+  Sphere 0.0831172 -0.0831172 0.0831172 360
+TransformEnd
+TransformBegin
+  Translate -0.242463 -0.858215 0.163115
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.238792 -0.826454 0.206781
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.195985 -0.887002 0.140922
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate -0.135419 -0.883953 0.168884
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.117013 -0.94054 0.197509
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.159598 -0.949223 0.24957
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.117599 -0.989458 0.157658
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0875897 -0.864733 0.122224
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate -0.101054 -0.867779 0.0703519
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate -0.0374912 -0.838547 0.141699
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.0154461 -0.825531 0.104332
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0421972 -0.771382 0.130475
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0932624 -0.743615 0.0969758
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0815402 -0.725332 0.0314126
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.120546 -0.689923 0.129418
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0537928 -0.878826 0.102134
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.065349 -0.903245 0.148627
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0795264 -0.891104 0.0497762
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.1097 -0.945359 0.0349942
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.070394 -0.98224 -0.00545299
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.0922134 -1.04576 -0.00984722
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.122728 -1.07241 0.0265837
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.0734632 -1.06861 -0.0588061
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.163221 -0.939018 -0.00054425
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.167249 -0.904648 -0.0442224
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.20784 -0.968404 0.0182624
+  Sphere 0.0612443 -0.0612443 0.0612443 360
+TransformEnd
+TransformBegin
+  Translate 0.26859 -0.969704 -0.0052585
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.31104 -0.948186 0.040215
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.290907 -0.88798 0.0670666
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.276162 -0.884966 0.127268
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.258495 -0.831707 0.151637
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.260267 -0.780016 0.118776
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.284024 -0.781654 0.0642789
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.298225 -0.833609 0.0364858
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.287505 -1.02991 -0.0278873
+  Sphere 0.0656189 -0.0656189 0.0656189 360
+TransformEnd
+TransformBegin
+  Translate 0.308475 -1.0332 -0.0782613
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd
+TransformBegin
+  Translate 0.28012 -1.07229 0.00787824
+  Sphere 0.0568697 -0.0568697 0.0568697 360
+TransformEnd

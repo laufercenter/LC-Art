@@ -1,0 +1,278 @@
+SolidBegin "union"
+TransformBegin
+  Translate -0.0175375 -0.0681155 -0.0517554
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0178422 -0.0146599 -0.0503947
+  SolidBegin "primitive"
+  Sphere 0.0664938 -0.0664938 0.0664938 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0402807 -0.0968941 -0.00454617
+  SolidBegin "primitive"
+  Sphere 0.0678061 -0.0678061 0.0678061 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0787567 -0.062003 0.0332782
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0199784 -0.154883 0.0156183
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0319424 -0.206877 -0.0243086
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.022016 -0.25506 0.0121831
+  SolidBegin "primitive"
+  Sphere 0.0664938 -0.0664938 0.0664938 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.00690055 -0.206653 -0.0783775
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.000293136 -0.257861 -0.111444
+  SolidBegin "primitive"
+  Sphere 0.0664938 -0.0664938 0.0664938 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.00927365 -0.155975 -0.11852
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.00552905 -0.096261 -0.099432
+  SolidBegin "primitive"
+  Sphere 0.0678061 -0.0678061 0.0678061 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.0420314 -0.0616823 -0.139199
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.133452 -0.0888539 0.0584458
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.174059 -0.120789 0.0236986
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.227835 -0.138907 0.047869
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.240134 -0.125054 0.10704
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.294458 -0.14028 0.13169
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.306991 -0.125214 0.190467
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.266452 -0.0951952 0.225163
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.21193 -0.079383 0.200806
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.198625 -0.0938563 0.141922
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.145146 -0.075806 0.117631
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.0438042 -0.149199 0.0396916
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.0458591 -0.114792 0.0968167
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.060976 -0.0543404 0.0963892
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.0571889 -0.0207313 0.148406
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.0391082 -0.0480474 0.200647
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.0249403 -0.10841 0.201673
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.0281727 -0.141705 0.14986
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0727115 -0.155089 -0.141847
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0765216 -0.12436 -0.200437
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0519429 -0.150426 -0.251193
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0555556 -0.120488 -0.305225
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.0838096 -0.0650319 -0.30791
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.108378 -0.0394666 -0.25753
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate -0.104552 -0.0692724 -0.203496
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.097506 -0.0878649 -0.163739
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.103184 -0.0832654 -0.224867
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.15567 -0.099838 -0.251027
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.16099 -0.0963829 -0.312916
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.2134 -0.115187 -0.340137
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.259836 -0.136326 -0.304938
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.255059 -0.139297 -0.243104
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.202609 -0.121292 -0.215493
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.196296 -0.12625 -0.153903
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+TransformBegin
+  Translate 0.143362 -0.109798 -0.128159
+  SolidBegin "primitive"
+  Sphere 0.074368 -0.074368 0.074368 360
+  SolidEnd
+TransformEnd
+SolidEnd

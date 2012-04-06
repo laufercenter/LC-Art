@@ -1,0 +1,5 @@
+        LightSource "spotlight" 2 "from" [0  -8 -2.0] "to" [0 0 0] "lightcolor" [0.10 0.3 1.0] "intensity" 50
+        LightSource "spotlight" 4 "from" [8   0 -2.0] "to" [0 0 0] "lightcolor" [0.10 0.3 1.0] "intensity" 50
+        LightSource "spotlight" 5 "from" [-8  0 -2.0] "to" [0 0 0] "lightcolor" [0.10 0.3 1.0] "intensity" 50
+        LightSource "spotlight" 8 "from" [ 5.6 -5.6 -2.0] "to" [0 0 0] "lightcolor" [0.10 0.3 1.0] "intensity" 50
+        LightSource "spotlight" 9 "from" [-5.6 -5.6 -2.0] "to" [0 0 0] "lightcolor" [0.10 0.3 1.0] "intensity" 50

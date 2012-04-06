@@ -1,0 +1,6992 @@
+##RenderMan RIB-Structure 1.1
+version 3.03
+##Creator VMD 1.9
+#
+# Molecular graphics export from VMD 1.9
+# http://www.ks.uiuc.edu/Research/vmd/
+#
+# Requires PhotoRealistic RenderMan version 13
+# Older versions may work, but have not been tested...
+#
+# VMD output image resolution and aspect ratio
+Display "plot.tif" "framebuffer" "rgba"
+Format 1024 768 1
+FrameAspectRatio 1.33333
+# VMD background color
+# Background colors may slow down rendering, 
+# but this is what VMD users expect by default
+# Comment these lines for a transparent background:
+#Declare "bgcolor" "uniform color"
+#Imager "background" "bgcolor" [0 0 0]
+# VMD camera definition
+ScreenWindow -2 2 -1.5 1.5
+Projection "orthographic"
+Translate -0 -0 2
+PixelSamples 4 4
+
+Option "photon" "emit" [100000]
+Option "photon" "maxdiffusedepth" [5] "maxspeculardepth" [5]
+Attribute "light" "emitphotons" ["on"]
+Attribute "light" "shadows" ["on"]
+
+LightSource "ambientlight" 0 "intensity" [0.1] "lightcolor" [1 1 1]
+LightSource "distantlight" 1 "intensity" [1.0] "lightcolor" [1 1 1] "from" [-0.1 0.1 -1] "to" [0 0 0]
+LightSource "distantlight" 2 "intensity" [1.0] "lightcolor" [1 1 1] "from" [1 2 -0.5] "to" [0 0 0]
+
+ShadingInterpolation "smooth"
+
+WorldBegin
+# Make coordinate system right handed by applying a top
+# level transformation to all subsequent geometry...
+Attribute "visibility" "int diffuse" 1
+Attribute "visibility" "int specular" 1
+Attribute "visibility" "int transmission" [1]
+Attribute "trace" "bias" 0.05
+Attribute "visibility" "photon" [1]
+Attribute "photon" "globalmap" "gmap"
+Attribute "photon" "shadingmodel" "matte"
+
+TransformBegin
+  Scale 1 1 -1
+# VMD scene begins here...
+# MoleculeID: 0 ReprID: 0 Beginning VDW
+TransformBegin
+  Color 0 0 1
+
+  Surface "indirect" "float samples" 256
+
+  Translate 0.359347 -0.818274 0.290242
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.305755 -0.824721 0.32854
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.249788 -0.807201 0.293685
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.250707 -0.785326 0.243457
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.315928 -0.785013 0.384053
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.357569 -0.736481 0.360154
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.39838 -0.771873 0.317303
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.200598 -0.817859 0.324267
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.141961 -0.798239 0.303704
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.127113 -0.745646 0.344778
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.139044 -0.746584 0.398918
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0996653 -0.851621 0.31325
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0362866 -0.848787 0.287631
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.00037086 -0.897223 0.319447
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.03918 -0.885216 0.356772
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0146174 -0.953771 0.306988
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.103273 -0.699115 0.317204
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0832399 -0.645554 0.349595
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0149957 -0.641294 0.338891
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.00538921 -0.638188 0.287323
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.115736 -0.590036 0.321442
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.101699 -0.532551 0.356627
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.184599 -0.596734 0.313356
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.0198733 -0.64394 0.387765
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.08313 -0.629166 0.381403
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0862076 -0.562263 0.392473
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0457146 -0.536484 0.419112
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.123943 -0.664799 0.426106
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.109776 -0.650507 0.487419
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.12238 -0.733595 0.417581
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.13398 -0.535459 0.371196
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.135542 -0.469786 0.365344
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.175525 -0.439479 0.410937
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.203701 -0.393747 0.398612
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.160551 -0.45382 0.302821
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.118467 -0.455635 0.248659
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0507418 -0.454356 0.26181
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.14082 -0.50323 0.206871
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.178309 -0.464928 0.464773
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.212968 -0.4363 0.512849
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.177681 -0.387249 0.542281
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.20207 -0.349682 0.574498
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.225941 -0.4788 0.565431
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.259001 -0.531478 0.540748
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.233742 -0.582609 0.514329
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.320175 -0.53637 0.533173
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.274861 -0.619363 0.489422
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.329605 -0.593529 0.49948
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.369148 -0.501036 0.551602
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.389175 -0.611765 0.485911
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.428148 -0.521456 0.537557
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.438174 -0.575698 0.505362
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.119528 -0.389749 0.531509
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0751168 -0.346822 0.554611
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0475976 -0.316088 0.500678
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0461507 -0.343071 0.452996
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0241047 -0.385557 0.58198
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.00841582 -0.447334 0.548813
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0344039 -0.451138 0.492606
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0199916 -0.441177 0.439951
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0898644 -0.47124 0.50643
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.0222818 -0.262686 0.508073
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.016246 -0.24254 0.457871
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0667747 -0.287814 0.446252
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.095523 -0.306729 0.489666
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0454841 -0.180244 0.470357
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.00286412 -0.127205 0.461001
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0329752 -0.0649335 0.468525
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.00645137 -0.0150297 0.447505
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.015648 0.038263 0.426712
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0741184 0.0510722 0.428523
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.0208857 0.0800377 0.403147
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.0760281 -0.305095 0.388795
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.124713 -0.347065 0.377729
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.184736 -0.313864 0.380872
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.207478 -0.291442 0.336175
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.10588 -0.373188 0.315854
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.074541 -0.321725 0.283505
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0415549 -0.290153 0.334418
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.209588 -0.308901 0.435267
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.267525 -0.27817 0.441045
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.318261 -0.3207 0.447491
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.311774 -0.366881 0.476762
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.270519 -0.244969 0.499851
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.232617 -0.18923 0.505739
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.23826 -0.169416 0.571479
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.252724 -0.140063 0.461144
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.369065 -0.304711 0.422843
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.41916 -0.346606 0.429367
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.47587 -0.312462 0.447822
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.480516 -0.258162 0.438083
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.420685 -0.375646 0.366566
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.471702 -0.353687 0.326941
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.40927 -0.443667 0.369204
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.519197 -0.343334 0.474362
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.577981 -0.312919 0.481644
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.619078 -0.313914 0.425044
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.626264 -0.362226 0.398275
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.614373 -0.339771 0.536465
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.62258 -0.403353 0.528225
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.585088 -0.328185 0.597587
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.645814 -0.261414 0.409287
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.691788 -0.260543 0.361501
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.753259 -0.237404 0.384561
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.755855 -0.201588 0.426183
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.672606 -0.221955 0.305743
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.671827 -0.15442 0.320057
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.612868 -0.246502 0.280293
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.652602 -0.116154 0.266333
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.801882 -0.256311 0.355429
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.858113 -0.223304 0.362158
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.873926 -0.198774 0.30164
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.868213 -0.230135 0.256602
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.904966 -0.268733 0.381685
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.969085 -0.245624 0.394401
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.00539 -0.299653 0.418061
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.07256 -0.289026 0.431621
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.10194 -0.346566 0.448821
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.892416 -0.142475 0.301408
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.911927 -0.11067 0.247173
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.95652 -0.0655674 0.26761
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.946745 -0.0357516 0.312187
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.865579 -0.0675683 0.220279
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.804579 -0.0816579 0.244839
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.869979 -0.0532501 0.152133
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.797612 -0.0409392 0.299965
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.00505 -0.0590183 0.235434
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.04921 -0.0134383 0.255067
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.07609 -0.0219496 0.318527
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.09391 0.0208689 0.348261
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.07662 -0.0781318 0.339734
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.09619 -0.0891911 0.401815
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.05153 -0.0723469 0.45094
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.06344 -0.0799068 0.5041
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.999501 -0.0485719 0.432441
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.953839 -0.0279651 0.475357
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.902188 -0.0711665 0.476108
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.889199 -0.101119 0.431206
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.929998 0.0335316 0.456043
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.982066 0.0767922 0.453617
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.958993 0.134986 0.429921
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.916903 0.160329 0.4545
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.9867 0.15486 0.38067
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.873321 -0.0731163 0.528188
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.822546 -0.1141 0.534128
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.764115 -0.0772229 0.532318
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.758597 -0.0321866 0.563079
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.829013 -0.143774 0.595685
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.870482 -0.19767 0.605565
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.904797 -0.218117 0.550754
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.908192 -0.191334 0.663052
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.721178 -0.0952899 0.49577
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.664215 -0.0620584 0.488549
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.612113 -0.105719 0.488098
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.619918 -0.159393 0.480877
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.663527 -0.0327473 0.426558
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.683551 0.0330241 0.423016
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.749793 0.0448353 0.414525
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.756526 0.108995 0.391233
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.735624 0.152264 0.437104
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.55794 -0.084479 0.494574
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.509117 -0.126654 0.47834
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.47494 -0.0984297 0.425927
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.476045 -0.0434458 0.416685
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.463158 -0.140428 0.52865
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.485548 -0.157927 0.590636
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.431608 -0.167317 0.632541
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.403734 -0.214959 0.626554
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 0.417877 -0.128538 0.671287
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.446504 -0.138094 0.391804
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.417613 -0.117464 0.336905
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.363378 -0.156695 0.325623
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.357297 -0.206606 0.347788
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.462338 -0.118179 0.284983
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.321797 -0.130626 0.292893
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.263086 -0.157041 0.280409
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.268302 -0.195449 0.224222
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.294559 -0.176051 0.179401
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.223114 -0.102167 0.268386
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.156663 -0.113952 0.26007
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.128258 -0.131335 0.319002
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.129481 -0.0560765 0.236787
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.244146 -0.25059 0.226409
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.243293 -0.284229 0.169252
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.189266 -0.264055 0.132839
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.138751 -0.269089 0.154397
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.23766 -0.352216 0.180263
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.290918 -0.377133 0.21727
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.277305 -0.44161 0.235887
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.35085 -0.369511 0.184248
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.201013 -0.239859 0.0788792
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.153858 -0.207596 0.045673
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.146839 -0.22794 -0.0203543
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.179108 -0.209223 -0.0613522
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.171071 -0.14102 0.0498363
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.121469 -0.0990478 0.0320858
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0812525 -0.114651 -0.00225031
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 0.122759 -0.049353 0.0532789
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.100032 -0.265159 -0.0306017
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0856211 -0.284852 -0.0919422
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0630441 -0.236871 -0.134896
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0670727 -0.241384 -0.189178
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0408493 -0.337212 -0.0866237
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0122429 -0.321451 -0.0539314
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0717547 -0.387707 -0.052879
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0382986 -0.18829 -0.1109
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0180929 -0.141366 -0.153059
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0676045 -0.0993083 -0.173601
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.057274 -0.0625633 -0.212428
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.120369 -0.103141 -0.146341
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.166316 -0.0596668 -0.159644
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.207979 -0.0896369 -0.203472
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.230764 -0.139218 -0.196181
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.199591 -0.0389811 -0.102304
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.216792 -0.058107 -0.253117
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.254627 -0.0842615 -0.300768
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.320061 -0.0862054 -0.282079
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.350588 -0.129322 -0.298432
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.250557 -0.0488553 -0.361499
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.187426 -0.0420157 -0.390794
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.148522 -0.0823002 -0.388265
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 0.177778 0.00647348 -0.416201
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.339541 -0.0386735 -0.248099
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.402368 -0.0344265 -0.229311
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.408459 -0.0245543 -0.16258
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.364505 -0.0179797 -0.131035
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.433347 0.0189146 -0.255895
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.446554 0.0105503 -0.321498
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.475059 -0.034241 -0.339764
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 0.427396 0.0504363 -0.354761
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.46393 -0.02497 -0.142007
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.477657 -0.019702 -0.0790683
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.493008 0.0459242 -0.0657169
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.529734 0.0726269 -0.0967776
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.531985 -0.0629897 -0.0677508
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.512623 -0.124603 -0.0761673
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.559874 -0.0574772 -0.00526631
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.465337 0.0701703 -0.0186455
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.477734 0.131761 0.00264549
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.491408 0.13628 0.0705925
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.458179 0.114884 0.109071
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.428355 0.177831 -0.0168877
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.363776 0.162755 -0.00133139
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.443627 0.241241 0.00519633
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.542999 0.1628 0.0842522
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.56309 0.165172 0.146038
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.563887 0.228269 0.164352
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.57842 0.269138 0.130649
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.627895 0.141846 0.148211
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.635471 0.074452 0.163776
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.579363 0.0351273 0.160527
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.685698 0.0468808 0.127555
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.548977 0.235431 0.220573
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.55991 0.294888 0.245194
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.625558 0.312906 0.237799
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.66581 0.276678 0.226913
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.546561 0.297269 0.312163
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.495027 0.25818 0.335069
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.490132 0.264852 0.403411
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.526267 0.237507 0.437203
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 0.449575 0.29819 0.422552
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.634376 0.37097 0.24513
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.693848 0.399117 0.245708
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.745189 0.365067 0.276937
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.744622 0.352717 0.330675
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.684464 0.46095 0.274663
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.726011 0.510574 0.252555
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.717209 0.517369 0.185949
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.667109 0.53395 0.167522
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 0.760882 0.505822 0.15344
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.790481 0.350803 0.24104
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.840939 0.31427 0.262135
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.896952 0.33409 0.229629
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.895132 0.358952 0.180036
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.837245 0.249191 0.240085
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.792373 0.207537 0.269202
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 1 0
+  Translate 0.811173 0.135728 0.239733
+  Sphere 0.0811419 -0.0811419 0.0811419 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.882599 0.126935 0.276756
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.94669 0.31817 0.259075
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.00672 0.318164 0.232196
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.01591 0.262272 0.194184
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.02314 0.212706 0.217825
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.05391 0.317388 0.28359
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.02615 0.304339 0.341372
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.0152 0.270927 0.135187
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.03752 0.220549 0.100244
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.09398 0.23572 0.0650889
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.09719 0.278338 0.0301951
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.989614 0.196814 0.057679
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.94298 0.158403 0.0898628
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.898431 0.134612 0.0431561
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.971541 0.106992 0.124946
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.1384 0.19699 0.0747246
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.1916 0.195926 0.035159
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.17998 0.189763 -0.0325422
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.17216 0.141073 -0.0576281
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.22642 0.141198 0.0601096
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.18033 0.103005 0.0942573
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.14082 0.151422 0.122271
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.18291 0.240945 -0.0619966
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.18413 0.236433 -0.127064
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.16936 0.296316 -0.155027
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.17383 0.343386 -0.125895
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.15264 0.29155 -0.212685
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.1282 0.34318 -0.245785
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.06093 0.332973 -0.25282
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.04045 0.28393 -0.23859
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.15935 0.349599 -0.308067
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.13449 0.313602 -0.362031
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.13805 0.244618 -0.357701
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.09314 0.218298 -0.398533
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.05753 0.172135 -0.381661
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.06455 0.143117 -0.32911
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 1.0139 0.155283 -0.419177
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 1.02708 0.377301 -0.274665
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.962599 0.365661 -0.280295
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.937084 0.402971 -0.329877
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.964591 0.446774 -0.348748
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.929759 0.378602 -0.220631
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.949092 0.437826 -0.192753
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.997315 0.446131 -0.152115
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.923228 0.49529 -0.20116
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.00393 0.504464 -0.134387
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.959638 0.537629 -0.162877
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.874238 0.517846 -0.234909
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.943688 0.599488 -0.161742
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.860335 0.579942 -0.231835
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.894321 0.620295 -0.196056
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.884221 0.384817 -0.350242
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.850795 0.422129 -0.393198
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.792918 0.445511 -0.363429
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.764365 0.412888 -0.329555
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.834466 0.383443 -0.447934
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.887061 0.346867 -0.47333
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.938409 0.384374 -0.500437
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.921504 0.417694 -0.558948
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.975793 0.445082 -0.58546
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.776027 0.50272 -0.374306
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.715953 0.524211 -0.353785
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.664286 0.494795 -0.38767
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.667335 0.485602 -0.441974
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.718563 0.592188 -0.36784
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.785581 0.608307 -0.374455
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.811843 0.550799 -0.40252
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.617118 0.480396 -0.354706
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.565727 0.451242 -0.38267
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.513616 0.476613 -0.348227
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.521745 0.49573 -0.297248
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.574233 0.383164 -0.372595
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.527213 0.336402 -0.393336
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.524658 0.322724 -0.461486
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.4866 0.266296 -0.47963
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.42038 0.273318 -0.474677
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.460487 0.477692 -0.37516
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.406915 0.48893 -0.33813
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.365572 0.436032 -0.34071
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.360809 0.406416 -0.386776
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.370072 0.540681 -0.361663
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.406195 0.597143 -0.358116
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 1 0
+  Translate 0.361379 0.651534 -0.394371
+  Sphere 0.0811419 -0.0811419 0.0811419 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.416498 0.711118 -0.395727
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.335412 0.424525 -0.291432
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.291781 0.376552 -0.295767
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.232758 0.399351 -0.273293
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.231035 0.442448 -0.239007
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.312869 0.321368 -0.259263
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.322519 0.333455 -0.192699
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.370523 0.296077 -0.287492
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.314417 0.276627 -0.155078
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.184424 0.370736 -0.293485
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.125454 0.391468 -0.272969
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0914431 0.345018 -0.235638
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0927521 0.2911 -0.247065
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0609154 0.367325 -0.190914
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0290381 0.327306 -0.149936
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0333861 0.349533 -0.142234
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.05709 0.381546 -0.180126
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.059774 0.333872 -0.0916059
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.122164 0.352031 -0.0855643
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.132286 0.418832 -0.0884182
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.172873 0.440844 -0.119174
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.154218 0.32366 -0.0301439
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.214435 0.301226 -0.0532942
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.167688 0.36239 0.025144
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.202169 0.243986 -0.0890679
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.0939839 0.451125 -0.0552606
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.108667 0.51537 -0.0525025
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0718628 0.556164 -0.0945403
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.077034 0.610783 -0.0923092
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.0332134 0.530414 -0.13167
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.000475645 0.571787 -0.16898
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0613101 0.546599 -0.181316
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0697895 0.492529 -0.177818
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.102481 0.586176 -0.196773
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.161942 0.566192 -0.216459
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.2083 0.580062 -0.169645
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.206761 0.626885 -0.14073
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.179815 0.600753 -0.273233
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.155411 0.568185 -0.327535
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0924186 0.563695 -0.336922
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.196149 0.537938 -0.366139
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0703042 0.527478 -0.384169
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.173661 0.501857 -0.413396
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.110882 0.496476 -0.421907
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.251056 0.539227 -0.163182
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.304372 0.556167 -0.128255
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.359758 0.550404 -0.169136
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.359931 0.51612 -0.212698
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.312752 0.519003 -0.0677108
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.321186 0.450296 -0.0761558
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.264662 0.533776 -0.0198657
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.3478 0.421112 -0.0199765
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.406457 0.585156 -0.152584
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.465587 0.580593 -0.181894
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.509375 0.542215 -0.145688
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.519907 0.550977 -0.0922928
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.490433 0.645081 -0.193206
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.52667 0.652229 -0.252144
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.557197 0.713712 -0.260476
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.511655 0.76542 -0.262865
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.542637 0.823205 -0.274082
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.533498 0.497577 -0.176757
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.573199 0.45435 -0.147282
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.633558 0.450323 -0.180686
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.639134 0.469559 -0.232199
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.540601 0.392797 -0.147352
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.480786 0.3961 -0.113837
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.529749 0.369102 -0.211043
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.678453 0.424081 -0.15085
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.734921 0.408514 -0.182105
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.737747 0.341681 -0.195091
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.731609 0.305627 -0.154476
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.789358 0.423971 -0.141794
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.782874 0.485305 -0.110713
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.835099 0.502337 -0.0694287
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.848696 0.454418 -0.0258644
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.853557 0.467131 0.0335569
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.847071 0.523427 0.0537542
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.86467 0.423394 0.0737939
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.746306 0.326091 -0.251052
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.753814 0.264392 -0.269949
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.818793 0.247198 -0.263368
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.857605 0.275503 -0.290297
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.736067 0.259563 -0.336632
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.746588 0.197003 -0.364127
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.719023 0.188093 -0.427074
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.669473 0.207307 -0.441383
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.751258 0.154921 -0.465183
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.82906 0.19926 -0.229259
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.887886 0.169592 -0.228907
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.879845 0.107026 -0.251706
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.834419 0.0785145 -0.240005
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.911211 0.160454 -0.165436
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.92671 0.217665 -0.132481
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.880958 0.251549 -0.103209
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.988046 0.233416 -0.126274
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.897313 0.300493 -0.0662701
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.00411 0.282609 -0.0892915
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.958887 0.315491 -0.0590564
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.975447 0.360849 -0.0197878
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.923962 0.0867344 -0.285592
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.919958 0.027635 -0.314081
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.965952 -0.0134121 -0.285734
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.00711 0.0067752 -0.25505
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.933133 0.0311725 -0.382244
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.886709 0.0694786 -0.415829
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.834478 0.0706397 -0.396902
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 0.902114 0.0980645 -0.461319
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.958475 -0.0717154 -0.297068
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.997014 -0.117249 -0.270094
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.0083 -0.107856 -0.203549
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.05956 -0.107768 -0.184581
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.05665 -0.12298 -0.305966
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.05667 -0.163162 -0.363934
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.07504 -0.230598 -0.354909
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 1.03926 -0.272563 -0.356576
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.1332 -0.241726 -0.349039
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.959879 -0.100177 -0.168392
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.967264 -0.0978484 -0.10239
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.952884 -0.159765 -0.0729742
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.910306 -0.190973 -0.0897926
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.92584 -0.0483092 -0.078009
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.943416 0.0107531 -0.106674
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.926961 -0.0416255 -0.00996488
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.00615 0.030194 -0.0858473
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.990182 -0.177896 -0.0295621
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.978629 -0.236292 -0.00214458
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.937867 -0.229505 0.0512984
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.94867 -0.189405 0.0872787
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 1.04103 -0.262012 0.0158669
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.0427 -0.319888 0.0530451
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.02406 -0.373326 0.0153921
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.10555 -0.327788 0.0815025
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.892964 -0.26805 0.056726
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.853312 -0.265491 0.108814
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.847058 -0.328625 0.132478
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.849783 -0.370803 0.0977706
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.789371 -0.241118 0.0915554
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.785296 -0.173574 0.0763184
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.744053 -0.246994 0.143379
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.720244 -0.148451 0.0829011
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.839102 -0.336286 0.190866
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.823546 -0.396945 0.212339
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.765697 -0.391981 0.245297
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.764269 -0.357613 0.288341
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.868058 -0.42066 0.257928
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.928447 -0.427139 0.227717
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.975364 -0.44256 0.274351
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.964138 -0.484226 0.309982
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 1.02279 -0.412422 0.274987
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.719797 -0.422911 0.222119
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.655074 -0.420087 0.238601
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.641799 -0.48032 0.267071
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.645722 -0.525536 0.23601
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.616407 -0.419294 0.179765
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.632156 -0.369464 0.13403
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.548411 -0.421281 0.192905
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.602221 -0.3792 0.072116
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.629847 -0.482422 0.325861
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.641851 -0.540568 0.357134
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.592601 -0.590057 0.345914
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 1 0
+  Translate 0.517696 -0.585931 0.380803
+  Sphere 0.0811419 -0.0811419 0.0811419 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.705367 -0.565335 0.339619
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.744965 -0.53153 0.321812
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate 0.526165 -0.6328 0.43382
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.715557 -0.624607 0.341968
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.775293 -0.644457 0.320633
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.782845 -0.649864 0.251568
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.810731 -0.691495 0.227898
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.756596 -0.606744 0.218684
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.760001 -0.613082 0.152599
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.788858 -0.557137 0.126269
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.766218 -0.507882 0.135675
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.697488 -0.615827 0.122914
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.658433 -0.666007 0.145674
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.642998 -0.672457 0.203591
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.629838 -0.710947 0.111313
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.604623 -0.720784 0.207359
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.596705 -0.744562 0.15061
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.837451 -0.566109 0.092446
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.865298 -0.515833 0.0608386
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.838036 -0.506772 6.91414e-06
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.822867 -0.55033 -0.0297805
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.930484 -0.529227 0.048714
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.963952 -0.544083 0.10519
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.0311 -0.548308 0.0936357
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.06196 -0.575559 0.149209
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 1.0478 -0.641144 0.152469
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.833416 -0.450506 -0.0184679
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.810504 -0.430912 -0.0767312
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.850406 -0.378465 -0.091621
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.871429 -0.347537 -0.0508389
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.744866 -0.409862 -0.071439
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.861737 -0.369531 -0.149529
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.892988 -0.313956 -0.169384
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.850847 -0.284258 -0.214453
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.823368 -0.314743 -0.251005
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.956825 -0.324788 -0.198968
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.00757 -0.33365 -0.153498
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.976913 -0.270856 -0.235534
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 1.07001 -0.332861 -0.18292
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.845023 -0.225384 -0.210716
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.803126 -0.194996 -0.250616
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.797897 -0.129859 -0.235341
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.832407 -0.104667 -0.199996
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.7535 -0.103951 -0.265402
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.743743 -0.0391551 -0.26133
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.708479 -0.0231886 -0.2064
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.662764 -0.051168 -0.193681
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.707989 -0.0181717 -0.317347
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.740666 -0.0343188 -0.370545
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.695484 0.0499963 -0.317582
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.731361 0.0220346 -0.175983
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.702479 0.0467389 -0.123457
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.696893 0.114533 -0.131896
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.73847 0.145895 -0.149492
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.74304 0.0314083 -0.0691744
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.721622 0.0660711 -0.01441
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.744144 -0.0370841 -0.0540891
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.643278 0.137836 -0.119358
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.631986 0.203436 -0.123045
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.631757 0.229714 -0.0595095
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.604439 0.20338 -0.0188318
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.569763 0.214954 -0.152085
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.560908 0.183752 -0.212864
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.495236 0.187755 -0.233691
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.604448 0.209711 -0.258821
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.662216 0.280325 -0.04986
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.660762 0.300305 0.0119028
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.629148 0.359654 0.0127969
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.637085 0.394672 -0.0292141
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.725446 0.304487 0.03574
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.724656 0.316292 0.103101
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.760861 0.246832 0.0229313
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.591961 0.369303 0.0587128
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.555493 0.423695 0.0568712
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.515772 0.430393 0.111528
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.520921 0.397082 0.155171
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.475936 0.475649 0.108603
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.437683 0.489128 0.16087
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.380993 0.451072 0.158685
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.330635 0.471953 0.151048
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.425224 0.557195 0.152703
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.420436 0.564677 0.0843878
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.467002 0.51937 0.06005
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.390492 0.393564 0.165614
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.337855 0.356354 0.173139
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.324026 0.354971 0.239964
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.365913 0.35736 0.275458
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.355055 0.294745 0.148315
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.30884 0.253543 0.162162
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.414224 0.271943 0.173344
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.265901 0.350482 0.256426
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.251721 0.339411 0.319741
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.270374 0.276723 0.343545
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.270526 0.266338 0.397542
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.182587 0.343054 0.320034
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.162025 0.368639 0.260411
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.212022 0.352209 0.218121
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.282298 0.233479 0.303655
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.293067 0.17171 0.324811
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.336879 0.144816 0.280044
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.33781 0.16156 0.228108
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.233278 0.133074 0.329305
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.202196 0.125877 0.268751
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.241884 0.0689332 0.353319
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.374254 0.103943 0.301158
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.416023 0.0737953 0.260673
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.379122 0.0250675 0.230123
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.347027 -0.00839269 0.260954
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.467396 0.0448305 0.298083
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.513293 0.0892516 0.323869
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.534759 0.130528 0.294489
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.529107 0.0796146 0.380726
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.382215 0.0231053 0.16946
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.345031 -0.0171356 0.13096
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.385329 -0.0578691 0.0937892
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.424253 -0.035867 0.0617855
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.307262 0.022949 0.0876162
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.262633 0.0603108 0.125674
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.275491 -0.0131539 0.0373802
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.220147 0.105232 0.0951554
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.375867 -0.117312 0.0977715
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.404579 -0.159955 0.0554098
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.359785 -0.177865 0.00739145
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.313597 -0.203924 0.0209219
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.422482 -0.219312 0.085826
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.453257 -0.210967 0.146493
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.459568 -0.257789 0.0417106
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.516718 -0.185015 0.141062
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.375289 -0.162886 -0.0480283
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.333172 -0.172692 -0.0968388
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.350205 -0.223068 -0.136954
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.391219 -0.257984 -0.124722
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.317979 -0.227256 -0.186454
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.323098 -0.281452 -0.224058
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.382817 -0.292785 -0.254214
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.400548 -0.344089 -0.262721
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.272117 -0.285056 -0.269707
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.206651 -0.289734 -0.24549
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.16112 -0.296199 -0.297876
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.165307 -0.246035 -0.34143
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.1893 -0.247022 -0.398106
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.21411 -0.294295 -0.423652
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.190619 -0.19804 -0.431698
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.416221 -0.244591 -0.265878
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.478613 -0.254657 -0.283884
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.518497 -0.294317 -0.243941
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.558304 -0.325656 -0.266255
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.511533 -0.195854 -0.300113
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.531116 -0.163417 -0.246065
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.495502 -0.153088 -0.205249
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.588887 -0.1481 -0.246278
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.507809 -0.29248 -0.184222
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.545009 -0.329164 -0.144171
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.510673 -0.385696 -0.125273
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.53543 -0.43328 -0.112894
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.564424 -0.289573 -0.0907642
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.63017 -0.26329 -0.0927107
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.656944 -0.250611 -0.155222
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.633295 -0.207281 -0.0535859
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.450845 -0.380202 -0.125373
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.412877 -0.431701 -0.108462
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.420588 -0.484541 -0.150593
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.421214 -0.536606 -0.132871
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.345683 -0.413903 -0.104141
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.3303 -0.370866 -0.0519249
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.2629 -0.359748 -0.0551537
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.348915 -0.395259 0.0106961
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.428322 -0.470308 -0.208135
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.437934 -0.520607 -0.249515
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.496427 -0.55389 -0.237879
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.501051 -0.608674 -0.245695
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.434515 -0.496412 -0.313238
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.471243 -0.443728 -0.316814
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.369921 -0.478388 -0.326029
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.541128 -0.518854 -0.216845
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.600639 -0.543614 -0.203584
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.605735 -0.584257 -0.150609
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.641788 -0.625907 -0.149234
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.64675 -0.493946 -0.195863
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.667976 -0.475211 -0.258632
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.72417 -0.436839 -0.254636
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.773167 -0.455591 -0.235265
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.714542 -0.380565 -0.273675
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.568333 -0.572841 -0.105739
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.568172 -0.614959 -0.0545526
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.520679 -0.663834 -0.0619425
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.507998 -0.699273 -0.0220817
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.559543 -0.580285 0.00590348
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.495745 -0.555344 0.0150274
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.607668 -0.531185 0.0109227
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.481326 -0.537277 0.0795842
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.492785 -0.663064 -0.114685
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.448032 -0.70788 -0.129844
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.387962 -0.701441 -0.0986588
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.358093 -0.746144 -0.0871889
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.369103 -0.645789 -0.085044
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.311073 -0.640993 -0.0537987
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.257705 -0.650162 -0.095504
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.261092 -0.629449 -0.146799
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.305663 -0.579443 -0.022323
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.210032 -0.680917 -0.073514
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.153167 -0.686216 -0.106079
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0996556 -0.6726 -0.0668966
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.101367 -0.672657 -0.0116662
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.142538 -0.749719 -0.134107
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.150009 -0.796559 -0.0912095
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.183196 -0.763486 -0.187008
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0509764 -0.661551 -0.0993723
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.006621 -0.648542 -0.0701278
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.046608 -0.701532 -0.081611
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0456675 -0.726613 -0.13021
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0322578 -0.590518 -0.097332
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0824577 -0.560001 -0.062707
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0658399 -0.547108 0.00313914
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0946592 -0.501907 -0.0963376
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.0783569 -0.720455 -0.0360469
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.112862 -0.775066 -0.0439901
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.172964 -0.76444 -0.0180905
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.177528 -0.74015 0.0309361
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0823611 -0.822541 -0.00648916
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0473807 -0.86028 -0.0495508
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0727473 -0.89896 -0.0802767
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0112592 -0.846645 -0.0532555
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.218698 -0.781921 -0.0510477
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.279879 -0.784122 -0.0263087
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.311749 -0.83657 -0.0566509
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.358591 -0.856575 -0.0359631
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.314698 -0.722732 -0.0287399
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.325442 -0.698609 -0.0912809
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.278603 -0.670063 -0.123143
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.383074 -0.705413 -0.11802
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.289323 -0.648757 -0.181891
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.3944 -0.683909 -0.176813
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.347116 -0.655625 -0.208548
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.287802 -0.859793 -0.100801
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.278267 -0.87095 -0.209727
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.228869 -0.866761 -0.252792
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.175967 -0.844108 -0.21832
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.183366 -0.815716 -0.171976
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.249946 -0.824431 -0.30271
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.305447 -0.794873 -0.27628
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.331845 -0.84377 -0.236158
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.124158 -0.859522 -0.24304
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0659779 -0.836214 -0.224263
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0467867 -0.79003 -0.270603
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.045895 -0.801359 -0.324499
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0219042 -0.888614 -0.224871
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0410258 -0.871072 -0.204267
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0831922 -0.923038 -0.216781
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0914178 -0.944121 -0.266674
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.111132 -0.944576 -0.169295
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.033522 -0.73703 -0.24848
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0188028 -0.687091 -0.288723
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0482079 -0.673135 -0.27883
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.06768 -0.66061 -0.228531
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.060748 -0.633372 -0.271155
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0500422 -0.578788 -0.310595
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.128295 -0.648327 -0.273423
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0838785 -0.678566 -0.326977
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.146968 -0.659784 -0.323076
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.144237 -0.592794 -0.339057
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0963262 -0.571357 -0.35693
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.187994 -0.69681 -0.366554
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.163464 -0.691199 -0.425397
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.193723 -0.764036 -0.351094
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.194013 -0.560419 -0.330664
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.188907 -0.494547 -0.328286
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.226303 -0.46315 -0.376565
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.244308 -0.411261 -0.372732
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.209268 -0.473239 -0.265047
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.168492 -0.498437 -0.216471
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.197226 -0.492705 -0.154592
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.107224 -0.466111 -0.217807
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.237759 -0.496908 -0.424438
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.267409 -0.470648 -0.476872
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.228947 -0.42669 -0.511918
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.25159 -0.390674 -0.546423
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.284451 -0.521161 -0.519526
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.325825 -0.563019 -0.487318
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.310336 -0.616175 -0.457905
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.387756 -0.556481 -0.480832
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.359127 -0.644518 -0.43309
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.408312 -0.609837 -0.44555
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.429157 -0.513185 -0.500174
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.469297 -0.616162 -0.432166
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.490312 -0.521255 -0.485294
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.510014 -0.572054 -0.451855
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.170492 -0.429661 -0.502594
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.129631 -0.382684 -0.524468
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0915483 -0.360555 -0.471555
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0885463 -0.390869 -0.42597
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0876037 -0.413144 -0.57054
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.115649 -0.438139 -0.628696
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.129362 -0.386763 -0.672282
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0921901 -0.368335 -0.709144
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.184872 -0.364004 -0.666965
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.0604806 -0.309107 -0.478721
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.019047 -0.288078 -0.431527
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0289702 -0.33479 -0.417331
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0540863 -0.360151 -0.459546
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0131518 -0.231856 -0.452769
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0267512 -0.177932 -0.459809
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.014167 -0.124347 -0.472289
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0195314 -0.0674446 -0.474122
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0151509 -0.0253048 -0.429606
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.0203358 -0.0325392 -0.381291
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.0470884 0.0255978 -0.433314
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.0401453 -0.347564 -0.358941
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0855154 -0.39308 -0.344342
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.14843 -0.365622 -0.346293
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.172548 -0.342884 -0.302611
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0638286 -0.414487 -0.281377
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0389972 -0.356869 -0.253187
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.00876617 -0.32588 -0.30565
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.17474 -0.367066 -0.400277
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.233989 -0.339195 -0.412887
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.281189 -0.388324 -0.418996
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.269604 -0.435457 -0.445504
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.226518 -0.308098 -0.472971
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.236899 -0.240688 -0.477838
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.207541 -0.199824 -0.431859
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.210703 -0.227893 -0.539028
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.333987 -0.377757 -0.393348
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.382837 -0.420913 -0.400134
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.440985 -0.388471 -0.416039
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.446476 -0.334065 -0.408363
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.391197 -0.456071 -0.341232
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.342281 -0.502388 -0.331103
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.396942 -0.412787 -0.28843
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.483262 -0.423432 -0.437937
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.542106 -0.398566 -0.454566
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.584102 -0.397939 -0.400357
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.589773 -0.44335 -0.36927
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.5685 -0.436709 -0.508042
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.52863 -0.433233 -0.559257
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.629357 -0.412825 -0.530519
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.611844 -0.346056 -0.387508
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.653396 -0.345799 -0.336607
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.715212 -0.327487 -0.358115
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.720841 -0.297158 -0.403386
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.63217 -0.30376 -0.286473
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.63082 -0.238317 -0.30795
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.571665 -0.32722 -0.261413
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.630521 -0.191519 -0.258353
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.761494 -0.347106 -0.325925
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.820853 -0.324203 -0.340358
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.844109 -0.294916 -0.28451
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.845651 -0.322022 -0.236353
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.861791 -0.376639 -0.359061
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.925745 -0.356322 -0.375068
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.964006 -0.408724 -0.398964
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.02772 -0.388814 -0.418885
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.06415 -0.443027 -0.430583
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.861176 -0.238448 -0.291819
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.883658 -0.202616 -0.242168
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.933462 -0.160973 -0.264573
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.92926 -0.131181 -0.310089
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.829833 -0.166039 -0.216906
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.85172 -0.129281 -0.161406
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.797351 -0.127468 -0.265862
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.804951 -0.0869029 -0.133742
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.982839 -0.159486 -0.232498
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.03318 -0.120511 -0.248882
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.05623 -0.131815 -0.312026
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.06772 -0.0893382 -0.344906
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.06004 -0.189417 -0.328832
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.07524 -0.204624 -0.390467
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.03034 -0.188418 -0.440328
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.04201 -0.201619 -0.492078
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.979493 -0.159516 -0.426306
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.936317 -0.14343 -0.473423
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.882959 -0.184417 -0.4711
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.870114 -0.210613 -0.423981
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.91515 -0.078931 -0.462829
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.970653 -0.0395992 -0.463047
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.958734 0.0198737 -0.432988
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.925921 0.0581468 -0.454817
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.988492 0.0276266 -0.381768
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.852466 -0.189255 -0.522112
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.797123 -0.224732 -0.522824
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.742337 -0.183872 -0.528464
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.742397 -0.14005 -0.561347
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.796285 -0.267144 -0.57654
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.85339 -0.305396 -0.585495
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.848992 -0.34182 -0.644174
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.864904 -0.347995 -0.531876
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.695696 -0.197703 -0.493454
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.642083 -0.159404 -0.484104
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.587683 -0.201098 -0.476698
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.594462 -0.253182 -0.461183
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.651256 -0.125016 -0.424299
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.667298 -0.0594667 -0.43463
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.726327 -0.0370234 -0.408296
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.727012 0.0320053 -0.414488
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.725361 0.0500717 -0.478932
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.533554 -0.178581 -0.488042
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.48032 -0.213635 -0.470988
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.451005 -0.17907 -0.419872
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.456571 -0.123775 -0.418118
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.437152 -0.215858 -0.525099
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.450562 -0.269805 -0.564636
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.402822 -0.274405 -0.612074
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.404308 -0.237637 -0.65376
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.364783 -0.314726 -0.607179
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.421405 -0.211399 -0.378874
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.395946 -0.179415 -0.327386
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.336609 -0.206993 -0.310403
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.326082 -0.258932 -0.322897
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.4403 -0.178814 -0.274843
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.296232 -0.17217 -0.284825
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.237359 -0.195062 -0.267598
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.240288 -0.224686 -0.205866
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.262093 -0.199655 -0.16136
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.198078 -0.139061 -0.270026
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.131448 -0.142835 -0.254719
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0965677 -0.175945 -0.304058
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.108071 -0.0785893 -0.244295
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.218946 -0.28048 -0.202736
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.212935 -0.307838 -0.142446
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.156793 -0.283938 -0.109655
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.104305 -0.292241 -0.127878
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.206733 -0.377545 -0.144524
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.257437 -0.412692 -0.176507
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.233214 -0.476214 -0.192567
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.317212 -0.410906 -0.141971
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.171008 -0.252273 -0.0603588
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.125187 -0.215744 -0.0312686
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.116303 -0.230555 0.0355616
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.148094 -0.209099 0.0740207
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.148105 -0.151396 -0.039059
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0994779 -0.104427 -0.029613
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0535975 -0.117052 -0.00193501
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.106704 -0.0541826 -0.051205
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.0692339 -0.264609 0.0502105
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0560664 -0.278627 0.114022
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0332344 -0.225978 0.152885
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0304615 -0.225931 0.208225
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0112686 -0.332692 0.114521
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0435559 -0.317124 0.0841117
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0365001 -0.390807 0.0851266
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.0156356 -0.178617 0.121226
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.00672853 -0.126267 0.153933
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0422634 -0.0878593 0.178174
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0303353 -0.0505887 0.215922
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.097235 -0.0954651 0.154127
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.147074 -0.053429 0.163435
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.187834 -0.0791546 0.209832
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.207976 -0.13028 0.206737
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.18506 -0.0455787 0.10661
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.199428 -0.0425858 0.255305
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.235438 -0.0685846 0.302623
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.300362 -0.0760715 0.285123
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.330327 -0.115577 0.308105
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.233427 -0.0316675 0.360086
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.170724 -0.0186103 0.38246
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.128467 -0.0531135 0.37082
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.165612 0.0280229 0.412052
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.321626 -0.037922 0.244261
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.384797 -0.0395152 0.227214
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.390494 -0.0365332 0.160581
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.345588 -0.0319542 0.129614
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.419383 0.0122342 0.255339
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.432963 -0.00112128 0.32113
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.465608 -0.0443964 0.335089
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.410003 0.0328043 0.358769
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.446246 -0.0419083 0.140178
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.460641 -0.0451112 0.0762299
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.480623 0.0171064 0.0556489
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.517726 0.0433544 0.0861358
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.510891 -0.0921801 0.0708378
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.485962 -0.149776 0.0856833
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.541395 -0.0960906 0.00847524
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.456369 0.0405299 0.00645673
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.472944 0.0996042 -0.0183033
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.48916 0.09416 -0.0858573
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.451718 0.0772945 -0.122712
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.419669 0.143962 -0.0189579
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.44507 0.20794 -0.0271315
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.374143 0.137024 0.0332701
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.544068 0.108449 -0.102251
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.559937 0.103076 -0.16579
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.561858 0.164454 -0.192444
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.573124 0.208604 -0.161562
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.622629 0.0738528 -0.174509
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.628131 0.00427866 -0.166375
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.574969 -0.0322533 -0.18994
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.634356 -0.0134946 -0.101589
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.551038 0.166175 -0.251024
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.55995 0.222735 -0.282588
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.625046 0.240703 -0.278005
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.664031 0.203803 -0.266597
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.544807 0.217659 -0.349484
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.510522 0.271816 -0.379406
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.531973 0.337457 -0.364921
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.5117 0.363133 -0.319206
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.567533 0.363633 -0.399787
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.63627 0.298503 -0.287471
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.698073 0.319557 -0.290799
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.736802 0.281914 -0.332652
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.725475 0.268744 -0.385265
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.699446 0.387816 -0.304225
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.703051 0.425908 -0.246044
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.765928 0.421021 -0.217665
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.810578 0.426096 -0.250053
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.771013 0.412176 -0.163015
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.783431 0.26258 -0.302801
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.826034 0.219534 -0.325688
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.879073 0.234805 -0.286928
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.870784 0.261989 -0.239375
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.799559 0.158454 -0.310578
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.83797 0.102823 -0.314607
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 1 0
+  Translate -0.79762 0.0515915 -0.267587
+  Sphere 0.0811419 -0.0811419 0.0811419 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.805456 0.0929353 -0.19948
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.932785 0.219657 -0.309299
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.98879 0.233561 -0.277726
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.01547 0.175895 -0.255946
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.02147 0.131082 -0.287984
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.03314 0.26576 -0.319335
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.00557 0.319306 -0.344246
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.02541 0.179479 -0.197511
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.02947 0.127486 -0.158596
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.07634 0.148158 -0.11445
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.07514 0.199823 -0.0949732
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.967812 0.119784 -0.127825
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.955912 0.0611007 -0.0940019
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.958485 0.00775135 -0.137453
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.895509 0.0661063 -0.0599085
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.11967 0.108424 -0.104636
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.17318 0.129525 -0.0726722
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.16656 0.133516 -0.00441873
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.14423 0.0932057 0.02579
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.21955 0.0830859 -0.0950508
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.18448 0.0244571 -0.105643
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.12404 0.0467107 -0.127874
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.18932 0.183204 0.0195637
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.19912 0.184658 0.0846456
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.18285 0.243427 0.116446
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.18973 0.293886 0.0947346
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.16221 0.234629 0.171558
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.14872 0.285477 0.210925
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.08331 0.276125 0.225349
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.06235 0.225059 0.222354
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.18731 0.279686 0.269013
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.24764 0.315435 0.274478
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.29785 0.309609 0.225873
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.32219 0.248424 0.217998
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.34579 0.231647 0.164616
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.35047 0.269612 0.117927
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -1.36471 0.175219 0.157346
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -1.05269 0.325893 0.239135
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.987335 0.325662 0.249444
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.9645 0.377887 0.288131
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.994807 0.422725 0.299946
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.953163 0.323821 0.188792
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.969374 0.375668 0.148018
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.00919 0.373763 0.0984812
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.947892 0.435075 0.151162
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.01395 0.427925 0.069894
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.977197 0.467864 0.100016
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.908218 0.465623 0.189946
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.964239 0.529516 0.0918869
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.896749 0.527138 0.180287
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.92419 0.558608 0.132075
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.908513 0.370077 0.307375
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.875723 0.415505 0.342524
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.819775 0.432989 0.306893
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.798986 0.397051 0.270771
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.855539 0.385098 0.400935
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.906412 0.355681 0.436672
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.88008 0.317255 0.4877
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.926778 0.288336 0.530265
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.958319 0.334342 0.567304
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.796311 0.487085 0.316733
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.736668 0.502295 0.292111
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.686894 0.484986 0.335682
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.695515 0.481505 0.38992
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.742434 0.570193 0.285395
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.780652 0.589515 0.339547
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.823707 0.536726 0.350027
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.635048 0.472452 0.309913
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.58363 0.448997 0.342795
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.532446 0.471888 0.304427
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.542449 0.49076 0.253544
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.589771 0.380665 0.338342
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.55162 0.338814 0.377291
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.578581 0.325921 0.440014
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.546449 0.273253 0.471567
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.576114 0.259634 0.52922
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.478146 0.470932 0.32743
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.42656 0.495502 0.294066
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.381781 0.44599 0.296785
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.372464 0.421487 0.345312
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.398668 0.546641 0.331102
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.365006 0.595437 0.29726
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 1 0
+  Translate -0.415462 0.648855 0.263769
+  Sphere 0.0811419 -0.0811419 0.0811419 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.458243 0.669081 0.329729
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.355168 0.430032 0.246272
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.30899 0.3827 0.251887
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.248964 0.404964 0.229833
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.245605 0.441971 0.189058
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.326264 0.323823 0.218313
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.342538 0.334823 0.152693
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.377946 0.290835 0.249487
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.336492 0.278825 0.113543
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.201114 0.382996 0.257014
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.14387 0.405676 0.234524
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.106395 0.359064 0.200916
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.103744 0.307316 0.219396
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.0773968 0.378345 0.15136
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0368327 0.338769 0.118168
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0253632 0.365799 0.113973
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0401932 0.410678 0.141622
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0600317 0.339409 0.0740344
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.104382 0.375234 0.0423046
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0770057 0.427566 0.00631326
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0316814 0.425563 -0.0263148
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.141384 0.331617 0.00415242
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.18295 0.299569 0.0486706
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.178175 0.361346 -0.0461272
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.22913 0.259605 0.0176741
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.106627 0.477035 0.0190358
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0843931 0.533408 -0.00494605
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.0444905 0.568238 0.0383666
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.0391135 0.622859 0.0346206
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.015667 0.536271 0.0791868
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0288056 0.569372 0.114026
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0906155 0.542765 0.108048
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0968462 0.489477 0.0974519
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.135215 0.580219 0.11773
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.191763 0.557403 0.140417
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.24442 0.573618 0.101153
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.245107 0.619898 0.0716488
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.201254 0.582458 0.203898
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.205625 0.650331 0.20392
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.152701 0.686306 0.204345
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.262917 0.678331 0.203129
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.156875 0.750119 0.203861
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.266944 0.742118 0.202893
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.214019 0.777881 0.203229
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.289087 0.534758 0.101781
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.34253 0.546906 0.0655546
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.396452 0.540245 0.106728
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.392926 0.510017 0.152786
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.345843 0.502692 0.0112832
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.346744 0.436283 0.0283987
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.294254 0.513305 -0.0319978
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.369187 0.398367 -0.0246977
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.445769 0.570771 0.0904707
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.499452 0.563338 0.128515
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.533908 0.514366 0.098718
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.537542 0.515001 0.0440539
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.539448 0.619698 0.127996
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.510642 0.676802 0.154484
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.547996 0.734259 0.140367
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.524965 0.796038 0.164968
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.561535 0.848316 0.14401
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.556495 0.47255 0.133075
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.588748 0.421916 0.105017
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.650617 0.418335 0.132988
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.659347 0.439401 0.183443
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.555248 0.360638 0.114743
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.497308 0.355795 0.0773633
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.540465 0.34732 0.17995
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.693181 0.391295 0.10119
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.748148 0.378503 0.134383
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.749812 0.312925 0.149612
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.729955 0.273968 0.116558
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.804654 0.404383 0.102766
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.822295 0.386276 0.038843
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.819735 0.436466 -0.00911236
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.756706 0.454281 -0.0208997
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.739647 0.499527 -0.0581524
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.778753 0.52999 -0.0928444
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.681651 0.514965 -0.0601007
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.770796 0.301573 0.202836
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.771074 0.239546 0.219284
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.830656 0.212507 0.233318
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.870377 0.23818 0.261521
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.726794 0.229003 0.26868
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.735448 0.257114 0.328933
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.713683 0.206248 0.367677
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.746042 0.16515 0.384251
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.655304 0.206499 0.378787
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.834827 0.158567 0.208302
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.890158 0.123495 0.208165
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.872721 0.0663567 0.236768
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.825996 0.0405949 0.223035
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.908748 0.105745 0.144591
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.922333 0.158962 0.104539
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.874251 0.19623 0.0857704
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.982121 0.169738 0.0840605
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.885922 0.244027 0.0458753
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.993722 0.218186 0.0439363
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.94518 0.254858 0.0247895
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.953523 0.301061 -0.0164095
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.910659 0.0481813 0.277684
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.897883 -0.007303 0.309842
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.94047 -0.0553098 0.28631
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.984345 -0.041315 0.256201
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.907608 0.00327843 0.377522
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.874642 0.0598938 0.396899
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.820346 0.0566656 0.408078
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.903423 0.107365 0.400123
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.927054 -0.111993 0.299464
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.967871 -0.159797 0.279695
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.9809 -0.161464 0.211806
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.03117 -0.171259 0.192009
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.0257 -0.156236 0.318564
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.0604 -0.215361 0.330055
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.03478 -0.251634 0.382548
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -1.00663 -0.228409 0.424112
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.04612 -0.310565 0.379515
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.933923 -0.152939 0.175377
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.941301 -0.160671 0.109767
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.923114 -0.223874 0.0899265
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.87846 -0.249046 0.109777
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.903191 -0.112123 0.0766921
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.92737 -0.0505291 0.0933333
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.899552 -0.119026 0.0087055
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.994165 -0.0429989 0.0767354
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.960052 -0.248468 0.0503392
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.946568 -0.306957 0.0235462
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.90291 -0.299256 -0.0268167
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.914356 -0.263136 -0.0666395
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -1.00305 -0.332589 -0.00789571
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.01629 -0.400805 -0.0108782
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.05524 -0.410332 -0.065989
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.96264 -0.443321 -0.0101904
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.855652 -0.335384 -0.0259547
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.813811 -0.337782 -0.0761304
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.806919 -0.403094 -0.095396
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.803856 -0.442699 -0.0580494
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.751476 -0.311541 -0.0552831
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.752566 -0.246573 -0.0293753
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.706643 -0.308179 -0.107332
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.752242 -0.244762 0.0400068
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.804208 -0.415148 -0.153203
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.781421 -0.474155 -0.170829
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.722025 -0.46869 -0.202749
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.718031 -0.437972 -0.248605
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.823338 -0.501349 -0.214833
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.880336 -0.508481 -0.179964
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.928992 -0.523612 -0.223693
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.917605 -0.561621 -0.26328
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.977716 -0.496908 -0.218053
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.676437 -0.49702 -0.175296
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.61209 -0.487249 -0.190332
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.59002 -0.545461 -0.215753
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.583888 -0.589592 -0.183959
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.569864 -0.474849 -0.134535
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.585986 -0.422971 -0.0914667
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.503602 -0.468864 -0.153882
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.627894 -0.440177 -0.0388925
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.579801 -0.545695 -0.273601
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.567861 -0.603211 -0.30394
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.500291 -0.623483 -0.294632
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 1 0
+  Translate -0.46736 -0.67728 -0.349492
+  Sphere 0.0811419 -0.0811419 0.0811419 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.614159 -0.652205 -0.2868
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.600618 -0.703528 -0.272761
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Translate -0.422857 -0.632769 -0.382982
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.671525 -0.634405 -0.288356
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.716458 -0.681237 -0.277965
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.714059 -0.710318 -0.215654
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.730861 -0.762769 -0.210525
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.694496 -0.674708 -0.16926
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.699502 -0.68888 -0.103446
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.732149 -0.635084 -0.0756567
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.71782 -0.584173 -0.0905824
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.63838 -0.687871 -0.0697756
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.591079 -0.730953 -0.0931203
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.552388 -0.760098 -0.0569984
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.577374 -0.747208 -0.152429
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.514606 -0.794535 -0.092509
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.530347 -0.786524 -0.151989
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.776272 -0.645244 -0.0374539
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.808094 -0.592655 -0.0128682
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.781187 -0.569285 0.0453507
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.752111 -0.602442 0.0782452
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.873332 -0.608967 -0.00080812
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.90594 -0.622172 -0.0585297
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.968046 -0.647761 -0.0465105
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.996171 -0.665637 -0.1068
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -1.05379 -0.696865 -0.0964779
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.792 -0.512148 0.0582165
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.773022 -0.486444 0.115929
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.812999 -0.433367 0.125349
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.84104 -0.412838 0.0823462
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.707898 -0.464495 0.112539
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.815106 -0.410321 0.180419
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.851309 -0.355635 0.19372
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.816261 -0.318924 0.239601
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.790259 -0.343617 0.280986
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.915328 -0.373731 0.21687
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.964581 -0.32716 0.211019
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.91605 -0.401078 0.280128
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -1.01722 -0.362782 0.183
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.812718 -0.260513 0.229291
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.774354 -0.223579 0.267444
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.776306 -0.159216 0.246931
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.814199 -0.140853 0.209916
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.733028 -0.1261 0.273745
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.725042 -0.062553 0.259676
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.694173 -0.0533271 0.201178
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.648165 -0.080754 0.190096
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.687044 -0.0323364 0.309198
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.717058 -0.0432888 0.365944
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.678919 0.0359651 0.299992
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.719512 -0.0131027 0.165211
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.69229 0.00777429 0.109439
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.68914 0.075537 0.11547
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.732422 0.105685 0.132648
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.734997 -0.0110401 0.0587473
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.733945 0.0307427 0.00509191
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.725173 -0.0770762 0.0415742
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.636018 0.0992374 0.101482
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.629736 0.164655 0.0980419
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.634565 0.179152 0.0321988
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.613043 0.143403 -0.00374806
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.566522 0.179929 0.117336
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.55454 0.189114 0.183377
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.593867 0.154236 0.225739
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.488258 0.174345 0.194107
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.661547 0.230568 0.0164824
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.664935 0.249596 -0.0465418
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.642903 0.314026 -0.050426
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.65673 0.350527 -0.0112495
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.73063 0.249791 -0.0658648
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.736327 0.27601 -0.128544
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.760634 0.1874 -0.0609775
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.608771 0.327502 -0.0975986
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.580504 0.385928 -0.0984015
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.537256 0.385719 -0.150154
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.535655 0.343603 -0.18569
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.502564 0.434423 -0.154549
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.465823 0.442265 -0.208851
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.406794 0.408521 -0.202835
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.360022 0.435189 -0.192851
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.457858 0.511205 -0.207581
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.451439 0.526443 -0.141033
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.498926 0.485811 -0.113295
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.409304 0.349397 -0.20805
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.352733 0.315469 -0.210117
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.341119 0.304586 -0.276042
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.383016 0.297229 -0.310464
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.360831 0.255606 -0.176131
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.308574 0.219644 -0.185456
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.416241 0.219912 -0.196297
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.284465 0.302285 -0.293374
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.272688 0.286413 -0.356175
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.27961 0.220119 -0.372299
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.278341 0.2054 -0.425249
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.206587 0.306639 -0.364723
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.177712 0.301979 -0.302456
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.229272 0.315371 -0.259037
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.28276 0.179548 -0.328395
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.287359 0.114602 -0.34184
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.330435 0.0914925 -0.295338
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.330738 0.113455 -0.245088
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.224263 0.0819591 -0.337883
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.227434 0.0131166 -0.340177
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.186209 0.0979021 -0.393678
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.367706 0.0486909 -0.31245
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.40612 0.0186052 -0.267536
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.36891 -0.0266721 -0.232052
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.33797 -0.0633835 -0.259876
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.455089 -0.01868 -0.297953
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.49781 0.0175548 -0.33477
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.524988 0.0602024 -0.314126
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.506294 -0.00254238 -0.390315
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.371331 -0.0229285 -0.172092
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.331074 -0.0567923 -0.130931
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.369686 -0.0955284 -0.0919891
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.411546 -0.072588 -0.0640585
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.295377 -0.0121428 -0.08986
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.250264 0.0241056 -0.128842
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.264942 -0.0405763 -0.0332503
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.239715 0.0857502 -0.101849
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.353938 -0.154277 -0.0899979
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.379404 -0.194645 -0.0439932
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.332284 -0.201751 0.00553685
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.284359 -0.227183 -0.00538838
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.391105 -0.257705 -0.0713507
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.425029 -0.258451 -0.131492
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.421954 -0.297494 -0.0224835
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.490831 -0.24001 -0.124215
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.347603 -0.178794 0.0579907
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.305101 -0.180805 0.107579
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.319082 -0.228192 0.1534
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.358871 -0.265606 0.145502
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.286656 -0.227703 0.202932
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.288853 -0.279199 0.244264
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.347716 -0.293425 0.273197
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.362403 -0.344551 0.285672
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.243322 -0.276655 0.295462
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.176867 -0.276723 0.273818
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.132308 -0.275347 0.328126
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.136363 -0.219156 0.36507
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.161335 -0.215668 0.420836
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.185887 -0.262671 0.447531
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.164169 -0.164209 0.452033
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.383357 -0.246909 0.279958
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.443474 -0.257933 0.304712
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.481638 -0.303675 0.270845
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.516504 -0.337906 0.295612
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.475301 -0.196249 0.314429
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.506528 -0.171368 0.260147
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.559848 -0.157713 0.260842
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.472229 -0.167392 0.212534
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.472686 -0.304896 0.211742
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.504949 -0.351594 0.178517
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.465115 -0.405137 0.16445
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.486733 -0.455503 0.160825
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.536289 -0.325664 0.121859
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.586359 -0.279405 0.139802
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.605658 -0.244383 0.0846004
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.642335 -0.306388 0.169387
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.405996 -0.39408 0.159056
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.364697 -0.444144 0.145462
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.367704 -0.49403 0.192317
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.369097 -0.548328 0.182341
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.300687 -0.419497 0.138827
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.287856 -0.38192 0.0825187
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.223374 -0.360409 0.0867603
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.297459 -0.417366 0.025016
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.372883 -0.473329 0.246171
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.38828 -0.513621 0.295153
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.445808 -0.551741 0.287163
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.444159 -0.605516 0.299627
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.389841 -0.468839 0.346714
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.33217 -0.469574 0.376164
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.443221 -0.47217 0.387513
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.495866 -0.525653 0.264773
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.548995 -0.563493 0.256417
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.54485 -0.608069 0.205935
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.57034 -0.656947 0.207098
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.604218 -0.526724 0.242736
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.61255 -0.48433 0.293919
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.672671 -0.454202 0.287439
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.719844 -0.481332 0.274404
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.668936 -0.395383 0.300337
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate -0.511519 -0.591338 0.159743
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.508958 -0.635868 0.111357
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.460824 -0.682153 0.122111
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.447044 -0.718505 0.0830354
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.502249 -0.607352 0.0489984
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.439992 -0.581463 0.0374134
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.550787 -0.559685 0.0420692
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.436335 -0.565905 -0.0292382
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.435452 -0.679117 0.177182
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.386649 -0.718872 0.196083
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.325471 -0.710907 0.165769
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.294119 -0.755178 0.156418
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.307502 -0.655155 0.150488
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.250991 -0.654518 0.11658
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.197795 -0.660777 0.158091
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.202591 -0.637054 0.207691
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.246176 -0.595345 0.0828028
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate -0.148531 -0.690266 0.138628
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0909401 -0.686655 0.171688
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate -0.0372882 -0.670516 0.132983
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0364689 -0.679305 0.0785526
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.0759748 -0.745481 0.203872
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate -0.0769566 -0.796663 0.163465
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate -0.117228 -0.753225 0.257561
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.00844669 -0.647205 0.162575
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0665091 -0.638116 0.132418
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.107745 -0.690051 0.14809
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.109445 -0.710004 0.198682
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.0979992 -0.584919 0.160019
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.092827 -0.527485 0.126198
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.106486 -0.477474 0.170949
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.137311 -0.528624 0.0738663
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.140672 -0.711407 0.105111
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.179419 -0.761977 0.118121
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.238449 -0.750422 0.0883823
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.240708 -0.732512 0.0368367
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.153108 -0.816289 0.0873114
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.102196 -0.839985 0.124191
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.109921 -0.879234 0.161524
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 0 0 1
+  Translate 0.0487834 -0.815839 0.11358
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Translate 0.286515 -0.762522 0.120523
+  Sphere 0.0698721 -0.0698721 0.0698721 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.347142 -0.767407 0.0945992
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.382417 -0.814258 0.13087
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.434201 -0.829198 0.117114
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+TransformBegin
+  Color 1.0 1.0 1.0
+  Translate 0.379354 -0.70549 0.0883936
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.389623 -0.670704 0.145949
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.341816 -0.638319 0.173255
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.448401 -0.66875 0.170596
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.35323 -0.603591 0.225338
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.460003 -0.634133 0.222465
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Translate 0.412364 -0.601721 0.249525
+  Sphere 0.076634 -0.076634 0.076634 360
+TransformEnd
+TransformBegin
+  Color 1 0 0
+  Translate 0.35703 -0.837772 0.174202
+  Sphere 0.0685198 -0.0685198 0.0685198 360
+TransformEnd
+# VMD scene ends here...
+# 
+# End right-handed coordinate system transformation...
+TransformEnd
+WorldEnd

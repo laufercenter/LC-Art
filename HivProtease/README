@@ -1,0 +1,19 @@
+1. Build the shaders:
+
+./make_shaders.sh
+
+2. Then go to a subdir:
+
+cd PanelA
+
+3. Bake the lighting
+
+renderdl bake.rib
+
+4. Render the final image
+
+renderdl scene.rib
+
+or, for a realtime view:
+
+renderdl -d scene.rib

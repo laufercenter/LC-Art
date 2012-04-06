@@ -1,0 +1,72 @@
+version 3.03
+
+Option "searchpath" "string shader" "..:&"
+
+Display "plot.tif" "file" "rgba"
+Format 800 800 1
+FrameAspectRatio 1
+
+ShadingRate 32
+
+Declare "bgcolor" "uniform color"
+
+ScreenWindow -1.5 1.5 -1.5 1.5
+Projection "perspective" "fov" 20
+Translate 0.1 -0 6
+
+ShadingInterpolation "smooth"
+
+Attribute "visibility" "int diffuse" 1
+Attribute "visibility" "int specular" 1
+Attribute "visibility" "int ambient" 1
+Attribute "trace" "bias" 0.05
+Attribute "light" "shadows" ["on"]
+
+LightSource "ambientlight" 1 "intensity" [1.0] "lightcolor" [0.1 0.1 0.1]
+Attribute "visibility" "int transmission" [1]
+
+WorldBegin
+    TransformBegin
+        Scale 1 1 -1
+
+        TransformBegin
+            Translate 0 0 0
+            ReadArchive "../lights.rib"
+        TransformEnd
+
+        ReadArchive "../spotlights.rib"
+
+
+        Atmosphere "noisysmoke" "float density" 0.15 "float lightscale" 40 "float smokevary" 8 "float freq" 2
+            "float octaves" 3 "color scatter" [1 1 0.5]
+
+        Surface "constant"
+        Color 1 1 1
+        Opacity 1 1 1
+        Polygon "P" [-100 100 -5 100 100 -5 100 -100 -5 -100 -100 -5]
+
+
+
+        TransformBegin
+            Translate 0 0 0
+            AttributeBegin
+                Attribute "visibility" "int transmission" [0]
+                Color 1.0 0.9 0.3
+                Opacity 1.00 1.0 1.0
+                Surface "edgy"
+                Displacement "castucco" "float freq" 64 "float Km" 0.01
+                Atmosphere "noisysmoke" "float density" 0.10 "float lightscale" 20 "float smokevary" 22 "float freq" 2
+                    "float octaves" 2 "color scatter" [1 1 0.5]
+                ReadArchive "../ligand.rib"
+            AttributeEnd
+        TransformEnd
+
+        AttributeBegin
+            Color  0.95 0.92 0.75
+            Opacity 1 1 1
+            Surface "indirect"
+            ReadArchive "closed.rib"
+        AttributeEnd
+    TransformEnd
+WorldEnd
+

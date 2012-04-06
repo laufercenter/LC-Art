@@ -1,0 +1,56 @@
+version 3.03
+
+Option "searchpath" "string shader" "..:&"
+
+Display "plot.tif" "file" "rgba"
+Format 800 800 1
+FrameAspectRatio 1
+
+Declare "bgcolor" "uniform color"
+Imager "background" "bgcolor" [1 1 1]
+
+ScreenWindow -1.5 1.5 -1.5 1.5
+Projection "perspective" "fov" 20
+Translate 0.1 -0 6
+
+ShadingInterpolation "smooth"
+
+# set shading rate higher to reduce the number of points in the point cloud
+ShadingRate 32
+
+Attribute "visibility" "int diffuse" 1
+Attribute "visibility" "int specular" 1
+Attribute "visibility" "int ambient" 1
+Attribute "trace" "bias" 0.05
+
+Attribute "shade" "string diffusehitmode" ["shader"]
+Attribute "shade" "string specularhitmode" ["shader"]
+Attribute "shade" "string transmissionhitmode" ["shader"]
+
+Attribute "light" "shadows" ["on"]
+Attribute "visibility" "int transmission" [1]
+
+Attribute "cull" "hidden" [0]
+Attribute "cull" "backfacing" [0]
+Attribute "dice" "rasterorient" [0]
+
+
+WorldBegin
+    TransformBegin
+        Scale 1 1 -1
+
+        TransformBegin
+            Translate -0.03 0.4 0
+            ReadArchive "../lights.rib"
+        TransformEnd
+
+        ReadArchive "../spotlights.rib"
+
+        AttributeBegin
+            Color  0.95 0.92 0.75
+            Opacity 1 1 1
+            Surface "ptc_bake"
+            ReadArchive "open.rib"
+        AttributeEnd
+    TransformEnd
+WorldEnd
