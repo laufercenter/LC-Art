@@ -1,0 +1,84 @@
+version 3.03
+
+Display "plot.tif" "file" "rgba"
+Format 2000 600 1
+FrameAspectRatio 3.33333
+
+Declare "bgcolor" "uniform color"
+Imager "background" "bgcolor" [1 1 1]
+
+Clipping 0 10
+DepthOfField 2.8 0.1 2.3
+PixelSamples 2 2
+PixelFilter "gaussian" 2 2
+
+ShadingRate 1
+Projection "perspective" "fov" 13.5
+Translate -0 -0.02 2
+Rotate -2 0 0 1
+
+ShadingInterpolation "smooth"
+
+Attribute "visibility" "int diffuse" 1
+Attribute "visibility" "int specular" 1
+Attribute "visibility" "int ambient" 1
+Attribute "trace" "bias" 0.05
+
+Declare "shadows" "string"
+Attribute "light" "shadows" "on"
+Attribute "visibility" "transmission" 1
+Attribute "visibility" "transmission" 1
+
+#LightSource "ambientlight" 0 "intensity" [1.0] "lightcolor" [1 1 1]
+#LightSource "distantlight" 1 "intensity" [1.0] "lightcolor" [1 1 1] "from" [-0.1 0.1 -1] "to" [0 0 0]
+#LightSource "distantlight" 2 "intensity" [1.0] "lightcolor" [1 1 1] "from" [1 2 -0.5] "to" [0 0 0]
+
+
+WorldBegin
+TransformBegin
+    Scale 1 1 -1
+
+
+    Atmosphere "depthcue" "color background" [1 1 1]
+        "float mindistance" .2 "float maxdistance" 0.88
+    AttributeBegin
+        Color 1 1 1
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_pyrimidine_bases.rib"
+    AttributeBegin
+
+    AttributeBegin
+        Color 0.8 0.8 0.8
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_purine_bases.rib"
+    AttributeEnd
+
+    AttributeBegin
+        Color 0 0.5 1
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_phosphate_backbone.rib"
+    AttributeEnd
+
+    AttributeBegin
+        Color 0.9 0.66 0.4
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_main_protein.rib"
+    AttributeEnd
+
+    AttributeBegin
+        Color 0.9 0.66 0.4
+        Opacity 1 1 1
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_rep_proteins.rib"
+    AttributeEnd
+
+    AttributeBegin
+        Color 0.9 0.66 0.4
+        Opacity 1 1 1
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_mutm_proteins.rib"
+    AttributeEnd
+
+TransformEnd
+WorldEnd
+
