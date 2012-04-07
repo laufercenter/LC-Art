@@ -54,26 +54,26 @@ TransformBegin
     AttributeEnd
 
     AttributeBegin
-        Color 0 0.5 1
+        Color 0 0.6 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_phosphate_backbone.rib"
     AttributeEnd
 
     AttributeBegin
-        Color 0.9 0.66 0.4
+        Color 1.0 0.6 0.2
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_main_protein.rib"
     AttributeEnd
 
     AttributeBegin
-        Color 0.9 0.66 0.4
+        Color 1.0 0.8 0.2
         Opacity 1 1 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_rep_proteins.rib"
     AttributeEnd
 
     AttributeBegin
-        Color 0.9 0.66 0.4
+        Color 1.0 0.6 0.2
         Opacity 1 1 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_mutm_proteins.rib"
