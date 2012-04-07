@@ -7,12 +7,12 @@ FrameAspectRatio 3.33333
 Declare "bgcolor" "uniform color"
 Imager "background" "bgcolor" [1 1 1]
 
-Clipping 0 10
-DepthOfField 2.8 0.1 2.3
-PixelSamples 8 8
-PixelFilter "gaussian" 2 2
+Clipping 0.1 10
+#DepthOfField 2.8 0.1 2.3
+#PixelSamples 8 8
+#PixelFilter "gaussian" 2 2
 
-ShadingRate 4
+ShadingRate 1
 Projection "perspective" "fov" 13.5
 Translate -0 -0.02 2
 Rotate -2 0 0 1
@@ -40,10 +40,10 @@ TransformBegin
     Scale 1 1 -1
 
 
-    #Atmosphere "depthcue" "color background" [1 1 1]
-        #"float mindistance" .2 "float maxdistance" 0.88
-    Atmosphere "smoke" "float opacdensity" 0.95 "float integstart" 3.6 "float lightdensity" 400
-        "float smokeoctaves" 3 "float smokevary" 2 "float smokefreq" 3
+    Atmosphere "depthcue" "color background" [1 1 1]
+        "float mindistance" .2 "float maxdistance" 0.88
+    #Atmosphere "smoke" "float opacdensity" 0.95 "float integstart" 3.6 "float lightdensity" 400
+        #"float smokeoctaves" 3 "float smokevary" 2 "float smokefreq" 3
 
     # background polygon
     Surface "constant"
@@ -88,7 +88,14 @@ TransformBegin
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_mutm_proteins.rib"
     AttributeEnd
-
+    #AttributeBegin
+        #LightSource "distantlight" 2 "from" [1 1 1] "to" [0 0 0] "float intensity" 2
+        #Sides 2
+        #Color 1 1 1
+        #Opacity 0.4 0.4 0.4
+        #Surface "smutz"
+        #ReadArchive "particles.rib"
+    #AttributeEnd
 TransformEnd
 WorldEnd
 
