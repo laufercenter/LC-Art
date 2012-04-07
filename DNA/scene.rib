@@ -54,7 +54,7 @@ TransformBegin
     AttributeEnd
 
     AttributeBegin
-        Color 0 0.5 1
+        Color 0 0.62 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_phosphate_backbone.rib"
     AttributeEnd
