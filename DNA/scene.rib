@@ -52,15 +52,27 @@ TransformBegin
     Polygon "P" [-100 100 -6.9 100 100 -6.9 100 -100 -6.9 -100 -100 -6.9]
 
     AttributeBegin
-        Color 1 1 1
+        Color 0.9 0.92 1
         Surface "indirect"
-        ReadArchive "rib_files/mutm_dna_pyrimidine_bases.rib"
+        ReadArchive "rib_files/mutm_dna_adenine_bases.rib"
     AttributeBegin
 
     AttributeBegin
-        Color 0.8 0.8 0.8
+        Color 0.9 0.92 1
         Surface "indirect"
-        ReadArchive "rib_files/mutm_dna_purine_bases.rib"
+        ReadArchive "rib_files/mutm_dna_thymine_bases.rib"
+    AttributeBegin
+
+    AttributeBegin
+        Color 0.7 0.75 1
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_cytosine_bases.rib"
+    AttributeEnd
+
+    AttributeBegin
+        Color 0.7 0.75 1
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_guanine_bases.rib"
     AttributeEnd
 
     AttributeBegin
@@ -70,20 +82,20 @@ TransformBegin
     AttributeEnd
 
     AttributeBegin
-        Color 0.9 0.66 0.4
+        Color 1.0 0.6 0.2
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_main_protein.rib"
     AttributeEnd
 
     AttributeBegin
-        Color 0.9 0.66 0.4
+        Color 1.0 0.8 0.3
         Opacity 1 1 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_rep_proteins.rib"
     AttributeEnd
 
     AttributeBegin
-        Color 0.9 0.66 0.4
+        Color 1.0 0.6 0.3
         Opacity 1 1 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_mutm_proteins.rib"
