@@ -84,7 +84,7 @@ TransformBegin
     AttributeEnd
 
     AttributeBegin
-        Color 1.0 0.47 0.1
+        Color 1.0 0.55 0.275
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_main_protein.rib"
     AttributeEnd

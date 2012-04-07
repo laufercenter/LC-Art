@@ -15,6 +15,6 @@ surface indirect(float Kd = 1, samples = 256)
         "maxdist", 0.15);
 
       // Set Ci and Oi
-      Ci = (1.0 * (1 - occlusion) + indirect + direct) * Cs * Os;
+      Ci = (0.6 * (1 - occlusion) + indirect + direct) * Cs * Os;
       Oi = Os;
 }

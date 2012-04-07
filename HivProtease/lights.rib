@@ -1,184 +1,184 @@
 TransformBegin
-  Translate -0.0175375 -0.0681155 -0.0517554
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0067935 -0.110301 -0.007002
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0178422 -0.0146599 -0.0503947
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.00473881 -0.051281 -0.0103038
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0402807 -0.0968941 -0.00454617
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0322027 -0.142726 -0.0587316
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0787567 -0.062003 0.0332782
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0723805 -0.103805 -0.102573
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0199784 -0.154883 0.0156183
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0119065 -0.208364 -0.0786232
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0319424 -0.206877 -0.0243086
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0282663 -0.26391 -0.0330153
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.022016 -0.25506 0.0121831
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0186583 -0.318825 -0.0715155
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.00690055 -0.206653 -0.0783775
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0135268 -0.263496 0.0276145
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.000293136 -0.257861 -0.111444
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.00261748 -0.318617 0.0657192
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.00927365 -0.155975 -0.11852
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.00295174 -0.205427 0.0699272
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.00552905 -0.096261 -0.099432
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0164472 -0.14076 0.0471585
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.0420314 -0.0616823 -0.139199
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0574738 -0.102783 0.0907761
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.133452 -0.0888539 0.0584458
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.133477 -0.131952 -0.130719
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.174059 -0.120789 0.0236986
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.180493 -0.164269 -0.0921507
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.227835 -0.138907 0.047869
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.240207 -0.182774 -0.119466
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.240134 -0.125054 0.10704
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.251939 -0.168968 -0.185612
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.294458 -0.14028 0.13169
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.312123 -0.184271 -0.213568
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.306991 -0.125214 0.190467
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.324067 -0.169101 -0.279324
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.266452 -0.0951952 0.225163
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.277214 -0.138896 -0.317773
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.21193 -0.079383 0.200806
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.21678 -0.122964 -0.290157
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.198625 -0.0938563 0.141922
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.203957 -0.137509 -0.224285
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.145146 -0.075806 0.117631
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.144576 -0.119062 -0.19684
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.0438042 -0.149199 0.0396916
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0593333 -0.205689 -0.103994
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.0458591 -0.114792 0.0968167
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0643284 -0.169731 -0.168245
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.060976 -0.0543404 0.0963892
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0836961 -0.103592 -0.169459
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.0571889 -0.0207313 0.148406
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0820925 -0.068086 -0.228168
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.0391082 -0.0480474 0.200647
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0620061 -0.0992708 -0.285405
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.0249403 -0.10841 0.201673
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0437038 -0.165374 -0.284834
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.0281727 -0.141705 0.14986
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.0447124 -0.200516 -0.226373
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0727115 -0.155089 -0.141847
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0735046 -0.200885 0.0942602
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0765216 -0.12436 -0.200437
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0775909 -0.164758 0.157909
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0519429 -0.150426 -0.251193
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0526524 -0.19288 0.215438
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0555556 -0.120488 -0.305225
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0564594 -0.157793 0.27408
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.0838096 -0.0650319 -0.30791
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.0852861 -0.0952073 0.274557
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.108378 -0.0394666 -0.25753
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.110244 -0.0676263 0.217461
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate -0.104552 -0.0692724 -0.203496
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate 0.106195 -0.102577 0.158817
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.097506 -0.0878649 -0.163739
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.117101 -0.133279 0.120022
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.103184 -0.0832654 -0.224867
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.12229 -0.126345 0.187565
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.15567 -0.099838 -0.251027
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.179005 -0.146039 0.218213
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.16099 -0.0963829 -0.312916
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.183733 -0.140327 0.286627
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.2134 -0.115187 -0.340137
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.240242 -0.162446 0.318521
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.259836 -0.136326 -0.304938
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.291362 -0.18903 0.281362
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.255059 -0.139297 -0.243104
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.287255 -0.19423 0.213004
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.202609 -0.121292 -0.215493
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.230674 -0.173004 0.180705
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.196296 -0.12625 -0.153903
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.224777 -0.180323 0.11265
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
 TransformBegin
-  Translate 0.143362 -0.109798 -0.128159
-  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.02
+  Translate -0.167553 -0.160729 0.0824549
+  LightSource "pointlight" "plight" "lightcolor" [1 0.5 0.1] "intensity" 0.05
 TransformEnd
