@@ -9,10 +9,10 @@ Imager "background" "bgcolor" [1 1 1]
 
 Clipping 0 10
 DepthOfField 2.8 0.1 2.3
-PixelSamples 2 2
+PixelSamples 8 8
 PixelFilter "gaussian" 2 2
 
-ShadingRate 1
+ShadingRate 4
 Projection "perspective" "fov" 13.5
 Translate -0 -0.02 2
 Rotate -2 0 0 1
@@ -25,13 +25,14 @@ Attribute "visibility" "int ambient" 1
 Attribute "trace" "bias" 0.05
 
 Declare "shadows" "string"
-Attribute "light" "shadows" "on"
+#Attribute "light" "shadows" "on"
 Attribute "visibility" "transmission" 1
 Attribute "visibility" "transmission" 1
 
 #LightSource "ambientlight" 0 "intensity" [1.0] "lightcolor" [1 1 1]
-#LightSource "distantlight" 1 "intensity" [1.0] "lightcolor" [1 1 1] "from" [-0.1 0.1 -1] "to" [0 0 0]
-#LightSource "distantlight" 2 "intensity" [1.0] "lightcolor" [1 1 1] "from" [1 2 -0.5] "to" [0 0 0]
+#LightSource "distantlight" 1 "intensity" [0.2] "lightcolor" [1 1 1] "from" [-0.1 0.1 -1] "to" [0 0 0]
+LightSource "spotlight" 1 "intensity" [1.0] "lightcolor" [1 1 1] "from" [0 20 0] "to" [0 0 0] "coneangle" 100
+#LightSource "distantlight" 2 "intensity" [0.2] "lightcolor" [1 1 1] "from" [1 2 -0.5] "to" [0 0 0]
 
 
 WorldBegin
@@ -39,8 +40,17 @@ TransformBegin
     Scale 1 1 -1
 
 
-    Atmosphere "depthcue" "color background" [1 1 1]
-        "float mindistance" .2 "float maxdistance" 0.88
+    #Atmosphere "depthcue" "color background" [1 1 1]
+        #"float mindistance" .2 "float maxdistance" 0.88
+    Atmosphere "smoke" "float opacdensity" 0.95 "float integstart" 3.6 "float lightdensity" 400
+        "float smokeoctaves" 3 "float smokevary" 2 "float smokefreq" 3
+
+    # background polygon
+    Surface "constant"
+    Color 1 1 1
+    Opacity 1 1 1
+    Polygon "P" [-100 100 -6.9 100 100 -6.9 100 -100 -6.9 -100 -100 -6.9]
+
     AttributeBegin
         Color 1 1 1
         Surface "indirect"
@@ -54,7 +64,7 @@ TransformBegin
     AttributeEnd
 
     AttributeBegin
-        Color 0 0.6 1
+        Color 0.1 0.62 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_phosphate_backbone.rib"
     AttributeEnd
