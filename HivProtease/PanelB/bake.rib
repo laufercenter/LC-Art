@@ -10,13 +10,15 @@ Declare "bgcolor" "uniform color"
 Imager "background" "bgcolor" [1 1 1]
 
 ScreenWindow -1.5 1.5 -1.5 1.5
-Projection "perspective" "fov" 20
-Translate 0.1 -0 6
+#Projection "perspective" "fov" 10
+Projection "orthographic"
+#Translate 0.1 -0.3 15
+Translate 0 0 2
 
 ShadingInterpolation "smooth"
 
 # set shading rate higher to reduce the number of points in the point cloud
-ShadingRate 32
+ShadingRate 64
 
 Attribute "visibility" "int diffuse" 1
 Attribute "visibility" "int specular" 1
@@ -40,7 +42,7 @@ WorldBegin
         Scale 1 1 -1
 
         TransformBegin
-            Translate -0.03 0.4 0
+            Translate 0 0.5 0
             ReadArchive "../lights.rib"
         TransformEnd
 
@@ -50,7 +52,7 @@ WorldBegin
             Color  0.95 0.92 0.75
             Opacity 1 1 1
             Surface "ptc_bake"
-            ReadArchive "open.rib"
+            ReadArchive "../open.rib"
         AttributeEnd
     TransformEnd
 WorldEnd

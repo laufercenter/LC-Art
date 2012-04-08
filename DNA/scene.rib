@@ -9,8 +9,8 @@ Imager "background" "bgcolor" [1 1 1]
 
 Clipping 0.1 10
 DepthOfField 2.8 0.1 2.3
-#PixelSamples 8 8
-#PixelFilter "gaussian" 2 2
+PixelSamples 8 8
+PixelFilter "gaussian" 2 2
 
 #ShadingRate 8 
 Projection "perspective" "fov" 13.5
@@ -76,7 +76,7 @@ TransformBegin
 
     AttributeBegin
         Color 1.0 0.8 0.3
-        #Color 1.0 0.47 0.1
+        #Color 1.0 0.55 0.275
         Opacity 1 1 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_rep_proteins.rib"
@@ -84,7 +84,6 @@ TransformBegin
     
     AttributeBegin
         Color 1.0 0.8 0.3
-        #Color 1.0 0.47 0.1
         Opacity 1 1 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_yellow_protein.rib"
@@ -99,7 +98,6 @@ TransformBegin
     AttributeEnd
 
     AttributeBegin
-        # LightSource "distantlight" 2 "from" [1 1 0] "to" [0 0 0] "float intensity" 0.1 
         #Color 1.0 0.6 0.2
         Color 1.0 0.5  0.1
         Surface "indirect" 

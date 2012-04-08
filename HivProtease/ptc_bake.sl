@@ -7,4 +7,5 @@ surface ptc_bake()
         "coordsystem", "world",
         "_radiosoty", rad,
         "interpolate", 1) ;
+    Ci = rad;
 }
