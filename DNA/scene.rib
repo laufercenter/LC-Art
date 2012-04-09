@@ -12,7 +12,7 @@ DepthOfField 2.8 0.1 2.3
 PixelSamples 8 8
 PixelFilter "gaussian" 2 2
 
-ShadingRate 8
+#ShadingRate 8 
 Projection "perspective" "fov" 13.5
 Translate -0 -0.02 2
 Rotate -2 0 0 1
@@ -25,7 +25,7 @@ Attribute "visibility" "int ambient" 1
 Attribute "trace" "bias" 0.05
 
 Declare "shadows" "string"
-#Attribute "light" "shadows" "on"
+Attribute "light" "shadows" "on"
 Attribute "visibility" "transmission" 1
 Attribute "visibility" "transmission" 1
 
@@ -53,27 +53,18 @@ TransformBegin
 
     AttributeBegin
         #Color 0.9 0.92 1
-        Color 0.7 0.93 1
+        #Color 0.7 0.93 1
+        Color 0.95 0.95 1.0
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_adenine_bases.rib"
-    AttributeBegin
-
-    AttributeBegin
-        #Color 0.9 0.92 1
-        Color 0.7 0.93 1
-        Surface "indirect"
         ReadArchive "rib_files/mutm_dna_thymine_bases.rib"
     AttributeBegin
 
     AttributeBegin
-        Color 0.7 0.75 1.0
+        #Color 0.7 0.75 1.0
+        Color 0.7 0.8 1.0
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_cytosine_bases.rib"
-    AttributeEnd
-
-    AttributeBegin
-        Color 0.7 0.82 1.0
-        Surface "indirect"
         ReadArchive "rib_files/mutm_dna_guanine_bases.rib"
     AttributeEnd
 
@@ -84,26 +75,35 @@ TransformBegin
     AttributeEnd
 
     AttributeBegin
-        Color 1.0 0.55 0.275
-        Surface "indirect"
-        ReadArchive "rib_files/mutm_dna_main_protein.rib"
-    AttributeEnd
-
-    AttributeBegin
-        #Color 1.0 0.8 0.3
-        Color 1.0 0.47 0.1
+        Color 1.0 0.8 0.3
+        #Color 1.0 0.55 0.275
         Opacity 1 1 1
         Surface "indirect"
         ReadArchive "rib_files/mutm_dna_rep_proteins.rib"
     AttributeEnd
-
+    
     AttributeBegin
-        #Color 1.0 0.6 0.3
-        Color 1.0 0.47 0.1
+        Color 1.0 0.8 0.3
         Opacity 1 1 1
         Surface "indirect"
-        ReadArchive "rib_files/mutm_dna_mutm_proteins.rib"
+        ReadArchive "rib_files/mutm_dna_yellow_protein.rib"
     AttributeEnd
+
+    AttributeBegin
+        #Color 1.0 0.6 0.2
+        Color 1.0 0.5 0.1
+        Opacity 1 1 1
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_orange_proteins.rib"
+    AttributeEnd
+
+    AttributeBegin
+        #Color 1.0 0.6 0.2
+        Color 1.0 0.5  0.1
+        Surface "indirect"
+        ReadArchive "rib_files/mutm_dna_main_protein.rib"
+    AttributeEnd
+
     AttributeBegin
         LightSource "distantlight" 2 "from" [1 1 1] "to" [0 0 0] "float intensity" 1
         Sides 2
