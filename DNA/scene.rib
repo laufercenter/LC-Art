@@ -1,8 +1,9 @@
 version 3.03
 
 Display "dna.tif" "file" "rgba"
-Format 2000 600 1
-FrameAspectRatio 3.33333
+Format 2000 687.5 1
+FrameAspectRatio 2.90909
+#FrameAspectRatio 3.33333
 
 Declare "bgcolor" "uniform color"
 Imager "background" "bgcolor" [1 1 1]
@@ -13,8 +14,8 @@ PixelSamples 8 8
 PixelFilter "gaussian" 2 2
 
 #ShadingRate 8 
-Projection "perspective" "fov" 13.5
-Translate -0 -0.02 2
+Projection "perspective" "fov" 15.6
+Translate -0.02 -0.02 2.05
 Rotate -2 0 0 1
 
 ShadingInterpolation "smooth"
