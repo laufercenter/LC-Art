@@ -1,9 +1,9 @@
 version 3.03
 
 Display "ligand.tif" "file" "rgba"
-Format 500 800 1
+Format 12000 19200 1
 FrameAspectRatio 0.625
-ShadingRate 32
+ShadingRate 1
 
 Declare "bgcolor" "uniform color"
 Imager "background" "bgcolor" [0 0 0]
@@ -40,7 +40,7 @@ TransformBegin
         Attribute "visibility" "photon" 0
         Attribute "visibility" "transmission" 0
         Color 0 0 1
-        Surface "constant"
+        Surface "edgy"
 
         ReadArchive "ligand_licorice.rib"
         ReadArchive "ligand_cpk.rib"
