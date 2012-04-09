@@ -1,4 +1,4 @@
-surface indirect2(float Ka = 0.8, Kd = 1, Ks = 0.3, roughness = 0.1;)
+surface indirect(float Ka = 0.8, Kd = 1, Ks = 0.3, roughness = 0.1;)
 {
   normal Ns = faceforward( normalize(N), I );
   vector V = normalize(-I);
