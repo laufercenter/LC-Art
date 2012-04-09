@@ -1,6 +1,6 @@
 version 3.03
 
-Display "plot.tif" "file" "rgba"
+Display "dna.tif" "file" "rgba"
 Format 2000 600 1
 FrameAspectRatio 3.33333
 
@@ -33,6 +33,7 @@ LightSource "ambientlight" 0 "intensity" [0.1] "lightcolor" [1 1 1]
 #LightSource "distantlight" 1 "intensity" [0.2] "lightcolor" [1 1 1] "from" [-0.1 0.1 -1] "to" [0 0 0]
 LightSource "spotlight" 1 "intensity" [1.0] "lightcolor" [1 1 1] "from" [0 20 0] "to" [0 0 0] "coneangle" 100
 #LightSource "distantlight" 2 "intensity" [0.2] "lightcolor" [1 1 1] "from" [1 2 -0.5] "to" [0 0 0]
+#LightSource "spotlight" 2 "intensity" [0.2] "lightcolor" [1 1 1] "from" [-1 2 -0.5] "to" [0 0 0]
 
 
 WorldBegin
@@ -55,7 +56,7 @@ TransformBegin
         #Color 0.9 0.92 1
         #Color 0.7 0.93 1
         Color 0.95 0.95 1.0
-        Surface "indirect"
+        Surface "indirect2" "float Ka" 1.0
         ReadArchive "rib_files/mutm_dna_adenine_bases.rib"
         ReadArchive "rib_files/mutm_dna_thymine_bases.rib"
     AttributeBegin
@@ -63,14 +64,14 @@ TransformBegin
     AttributeBegin
         #Color 0.7 0.75 1.0
         Color 0.7 0.8 1.0
-        Surface "indirect"
+        Surface "indirect2" "float Ka" 1.0
         ReadArchive "rib_files/mutm_dna_cytosine_bases.rib"
         ReadArchive "rib_files/mutm_dna_guanine_bases.rib"
     AttributeEnd
 
     AttributeBegin
         Color 0.1 0.62 1
-        Surface "indirect"
+        Surface "indirect2" "float Ka" 1.0
         ReadArchive "rib_files/mutm_dna_phosphate_backbone.rib"
     AttributeEnd
 
@@ -78,14 +79,14 @@ TransformBegin
         Color 1.0 0.8 0.3
         #Color 1.0 0.55 0.275
         Opacity 1 1 1
-        Surface "indirect"
+        Surface "indirect2" "float Ka" 1.0
         ReadArchive "rib_files/mutm_dna_rep_proteins.rib"
     AttributeEnd
     
     AttributeBegin
         Color 1.0 0.8 0.3
         Opacity 1 1 1
-        Surface "indirect"
+        Surface "indirect2" "float Ka" 1.0
         ReadArchive "rib_files/mutm_dna_yellow_protein.rib"
     AttributeEnd
 
@@ -93,14 +94,14 @@ TransformBegin
         #Color 1.0 0.6 0.2
         Color 1.0 0.5 0.1
         Opacity 1 1 1
-        Surface "indirect"
+        Surface "indirect2" "float Ka" 1.0
         ReadArchive "rib_files/mutm_dna_orange_proteins.rib"
     AttributeEnd
 
     AttributeBegin
         #Color 1.0 0.6 0.2
         Color 1.0 0.5  0.1
-        Surface "indirect" 
+        Surface "indirect2" "float Ka" 1.0 
         ReadArchive "rib_files/mutm_dna_main_protein.rib"
     AttributeEnd
 
