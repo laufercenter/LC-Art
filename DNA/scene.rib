@@ -106,14 +106,14 @@ TransformBegin
         ReadArchive "rib_files/mutm_dna_main_protein.rib"
     AttributeEnd
 
-    #AttributeBegin
-        #LightSource "distantlight" 2 "from" [1 1 1] "to" [0 0 0] "float intensity" 2
-        #Sides 2
-        #Color 1 1 1
-        #Opacity 0.4 0.4 0.4
-        #Surface "smutz"
-        #ReadArchive "particles.rib"
-    #AttributeEnd
+    AttributeBegin
+        LightSource "distantlight" 2 "from" [1 1 1] "to" [0 0 0] "float intensity" 1
+        Sides 2
+        Color 1 1 1
+        Opacity 0.4 0.4 0.4
+        Surface "smutz"
+        ReadArchive "particles.rib"
+    AttributeEnd
 TransformEnd
 WorldEnd
 

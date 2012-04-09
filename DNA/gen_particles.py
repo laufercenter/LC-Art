@@ -4,7 +4,7 @@ from random import uniform, gauss
 
 of = open('particles.rib', 'w')
 
-for i in range(500000):
+for i in range(1000000):
 
     x = uniform(-3.8, 1.5)
     y = uniform(-.8, 2.5)
