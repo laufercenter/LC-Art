@@ -11,10 +11,10 @@ Imager "background" "bgcolor" [1 1 1]
 
 Clipping 0.1 10
 DepthOfField 2.8 0.1 2.3
-PixelSamples 4 4
+PixelSamples 5 5
 PixelFilter "gaussian" 2 2
 
-ShadingRate 8 
+#ShadingRate 16
 Projection "perspective" "fov" 15.6
 Translate -0.02 -0.02 2.05
 Rotate -2 0 0 1
@@ -104,14 +104,14 @@ TransformBegin
         #Color 1.0 0.6 0.2
         Color 1.0 0.5  0.1
         Surface "indirect2" "float Ka" 1.0 
-        ReadArchive "rib_files/mutm_dna_main_protein.rib"
+        ReadArchive "rib_files/mutm_dna_msms_main_protein.rib"
     AttributeEnd
 
     AttributeBegin
         LightSource "distantlight" 2 "from" [1 1 1] "to" [0 0 0] "float intensity" 1
         Sides 2
         Color 1 1 1
-        Opacity 0.4 0.4 0.4
+        Opacity 0.35 0.35 0.35
         Surface "smutz"
         ReadArchive "particles.rib"
     AttributeEnd
