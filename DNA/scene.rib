@@ -1,7 +1,8 @@
 version 3.03
 
 Display "dna.tif" "file" "rgba"
-Format 2000 687.5 1
+#Format 2000 687.5 1
+Format 19200 6600 1
 FrameAspectRatio 2.90909
 #FrameAspectRatio 3.33333
 
@@ -10,10 +11,10 @@ Imager "background" "bgcolor" [1 1 1]
 
 Clipping 0.1 10
 DepthOfField 2.8 0.1 2.3
-PixelSamples 8 8
+PixelSamples 4 4
 PixelFilter "gaussian" 2 2
 
-#ShadingRate 8 
+ShadingRate 8 
 Projection "perspective" "fov" 15.6
 Translate -0.02 -0.02 2.05
 Rotate -2 0 0 1
