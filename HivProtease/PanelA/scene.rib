@@ -3,14 +3,14 @@ version 3.03
 Option "searchpath" "string shader" "..:&"
 
 Display "plot.tif" "file" "rgba"
-Format 800 800 1
+Format 9600 9600 1
 FrameAspectRatio 1
 
-ShadingRate 32
+ShadingRate 256
 
 Declare "bgcolor" "uniform color"
 
-ScreenWindow -1.5 1.5 -1.5 1.5
+ScreenWindow -1.75 1.75 -1.75 1.75
 #Projection "perspective" "fov" 10
 Projection "orthographic"
 #Translate 0.1 -0.3 15
@@ -22,8 +22,9 @@ Attribute "visibility" "int diffuse" 1
 Attribute "visibility" "int specular" 1
 Attribute "visibility" "int ambient" 1
 Attribute "trace" "bias" 0.05
-Attribute "light" "shadows" ["on"]
 
+#Attribute "light" "shadows" ["on"]
+#Attribute "light" "integer samples" [2]
 LightSource "ambientlight" 1 "intensity" [1.0] "lightcolor" [0.1 0.1 0.1]
 Attribute "visibility" "int transmission" [1]
 
@@ -61,8 +62,7 @@ WorldBegin
                 #Color 0.8 0.8 0.8
                 Opacity 0.8 0.8 0.8
                 Surface "edgy"
-                Displacement "castucco" "float freq" 64 "float Km" 0.01
-                Atmosphere "noisysmoke" "float density" 0.1 "float lightscale" 2 "float smokevary" 22 "float freq" 2
+                Atmosphere "noisysmoke" "float density" 0.1 "float lightscale" 2.5 "float smokevary" 22 "float freq" 2
                     "float octaves" 2 "color scatter" [1 1 1.0] "float stepsize" 0.1
                 ReadArchive "../ligand.rib"
             AttributeEnd
