@@ -32,12 +32,12 @@ Attribute "light" "shadows" "on"
 Attribute "visibility" "transmission" 1
 Attribute "visibility" "transmission" 1
 
-LightSource "ambientlight" 0 "intensity" [0.1] "lightcolor" [1 1 1]
+#LightSource "ambientlight" 0 "intensity" [0.1] "lightcolor" [1 1 1]
 #LightSource "distantlight" 1 "intensity" [0.2] "lightcolor" [1 1 1] "from" [-0.1 0.1 -1] "to" [0 0 0]
-#LightSource "spotlight" 1 "intensity" [0.2] "lightcolor" [1 1 1] "from" [0 1 0] "to" [0 0 0] "coneangle" 100
+#LightSource "spotlight" 1 "intensity" 100 "lightcolor" [1 1 1] "from" [0 0 1] "to" [0 0 10] "coneangle" 1
 #LightSource "distantlight" 1 "intensity" [0.2] "lightcolor" [1 1 1] "from" [-1 -1 0] "to" [0 0 0]
-LightSource "distantlight" 2 "intensity" [1.0] "lightcolor" [0.0 0.5 1] "from" [0 0 -1] "to" [0 0 0]
-LightSource "distantlight" 3 "intensity" [1.0] "lightcolor" [1 0.5 0.0] "from" [0 0 1] "to" [0 0 0]
+LightSource "distantlight" -1 "intensity" 1.5 "lightcolor" [0.0 0.5 1] "from" [0 0 -1] "to" [0 0 0]
+LightSource "distantlight" 0 "intensity" 1.5 "lightcolor" [1 0.5 0.0] "from" [0 0 1] "to" [0 0 0]
 
 
 WorldBegin
@@ -55,6 +55,7 @@ TransformBegin
 #    Color 1 1 1
 #    Opacity 1 1 1
 #    Polygon "P" [-100 100 -6.9 100 100 -6.9 100 -100 -6.9 -100 -100 -6.9]
+LightSource "distantlight" 1 "intensity" 1 "lightcolor" [1 1 1] "from" [0 10 0] "to" [0 0 0]
 
     AttributeBegin
         Color 1 1 1
