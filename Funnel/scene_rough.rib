@@ -1,8 +1,8 @@
 version 3.03
 
 Display "scene_rough.tif" "file" "rgba"
-Format 600 600 1
-FrameAspectRatio 1
+Format 2000 500 1
+FrameAspectRatio 4
 
 Declare "bgcolor" "uniform color"
 Imager "background" "bgcolor" [1 1 1]
@@ -12,13 +12,11 @@ Imager "background" "bgcolor" [1 1 1]
 #PixelSamples 8 8
 #PixelFilter "gaussian" 2 2
 
-#ShadingRate 8 
-Projection "perspective" "fov" 13.5
-Translate 0 0 -100
-Rotate 60 1 0 0
-Translate 0 180 0
+ShadingRate 1
+Projection "perspective" "fov" 4.0
+Translate 0 7 400
+Rotate 70 1 0 0
 Rotate -45 0 0 1
-Translate 0 0 100
 
 ShadingInterpolation "smooth"
 
@@ -28,40 +26,54 @@ Attribute "visibility" "int ambient" 1
 Attribute "trace" "bias" 0.05
 
 Declare "shadows" "string"
-Attribute "light" "shadows" "on"
+#Attribute "light" "shadows" "on"
 Attribute "visibility" "transmission" 1
-Attribute "visibility" "transmission" 1
-
-#LightSource "ambientlight" 0 "intensity" [0.1] "lightcolor" [1 1 1]
-#LightSource "distantlight" 1 "intensity" [0.2] "lightcolor" [1 1 1] "from" [-0.1 0.1 -1] "to" [0 0 0]
-#LightSource "spotlight" 1 "intensity" 100 "lightcolor" [1 1 1] "from" [0 0 1] "to" [0 0 10] "coneangle" 1
-#LightSource "distantlight" 1 "intensity" [0.2] "lightcolor" [1 1 1] "from" [-1 -1 0] "to" [0 0 0]
-LightSource "distantlight" -1 "intensity" 1.5 "lightcolor" [0.0 0.5 1] "from" [0 0 -1] "to" [0 0 0]
-LightSource "distantlight" 0 "intensity" 1.5 "lightcolor" [1 0.5 0.0] "from" [0 0 1] "to" [0 0 0]
 
 
 WorldBegin
 TransformBegin
     Scale 1 1 -1
 
+    LightSource "spotlight" 1 "from" [1000 -300 1000] "to" [0 0 0] "intensity" 3000000
+    #LightSource "ambientlight" 0 "intensity" 0.1
 
-#    Atmosphere "depthcue" "color background" [1 1 1]
-#        "float mindistance" .2 "float maxdistance" 0.88
-    #Atmosphere "smoke" "float opacdensity" 0.95 "float integstart" 3.6 "float lightdensity" 400
-        #"float smokeoctaves" 3 "float smokevary" 2 "float smokefreq" 3
+    #TransformBegin
+        #Translate -15 15 0
+        #Rotate 45 0 0 1
+        #LightSource "pointlight" 2 "from" [-20 0 -10] "intensity" 444
+        #LightSource "pointlight" 2 "from" [-20 0 -20] "intensity" 444
+        #LightSource "pointlight" 2 "from" [-20 0 -30] "intensity" 444
+        #LightSource "pointlight" 2 "from" [ 20 0 -30] "intensity" 444
+        #LightSource "pointlight" 2 "from" [ 20 0 -20] "intensity" 444
+        #LightSource "pointlight" 2 "from" [ 20 0 -10] "intensity" 444
+    #TransformEnd
 
-#    # background polygon
-#    Surface "constant"
-#    Color 1 1 1
-#    Opacity 1 1 1
-#    Polygon "P" [-100 100 -6.9 100 100 -6.9 100 -100 -6.9 -100 -100 -6.9]
-LightSource "distantlight" 1 "intensity" 1 "lightcolor" [1 1 1] "from" [0 10 0] "to" [0 0 0]
+    Surface "indirect" "float Ka" 0.7 "float Kd" 0.3 "float roughness" 0.4
+        "float Ks" 0.25
 
     AttributeBegin
-        Color 1 1 1
-        Surface "checker"
-        ReadArchive "rib_files/funnel1_st.rib"
+        #LightSource "spotlight" 1 "from" [500 -500 0] "to" [0 0 -16] "coneangle" 0.012
+            #"intensity" 500000 "conedeltaangle" 0.006
+        Color 1.0 0.55 0.2
+        ReadArchive "rib_files/funnel4_low.rib"
+    AttributeEnd
+
     AttributeBegin
+        Translate 30 30 0
+        #LightSource "spotlight" 1 "from" [500 -500 0] "to" [0 0 -16] "coneangle" 0.012
+            #"intensity" 500000 "conedeltaangle" 0.006
+        Color 0.23 0.71 0.88
+        ReadArchive "rib_files/funnel6_low.rib"
+    AttributeEnd
+
+    AttributeBegin
+        Translate -30 -30 -2
+        #LightSource "spotlight" 1 "from" [500 -500 0] "to" [0 0 -16] "coneangle" 0.012
+            #"intensity" 500000 "conedeltaangle" 0.006
+        Scale 1 1 0.9
+        Color 0.75 0.75 0.28
+        ReadArchive "rib_files/funnel2_low.rib"
+    AttributeEnd
 
 TransformEnd
 WorldEnd
