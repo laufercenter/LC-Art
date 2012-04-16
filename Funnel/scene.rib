@@ -1,7 +1,7 @@
 version 3.03
 
-Display "scene_rough.tif" "file" "rgba"
-Format 2000 500 1
+Display "scene.tif" "file" "rgba"
+Format 35200 8800 1
 FrameAspectRatio 4
 
 Declare "bgcolor" "uniform color"
@@ -55,7 +55,7 @@ TransformBegin
         #LightSource "spotlight" 1 "from" [500 -500 0] "to" [0 0 -16] "coneangle" 0.012
             #"intensity" 500000 "conedeltaangle" 0.006
         Color 1.0 0.55 0.2
-        ReadArchive "rib_files/funnel4_low.rib"
+        ReadArchive "rib_files/funnel4_high.rib"
     AttributeEnd
 
     AttributeBegin
@@ -63,7 +63,7 @@ TransformBegin
         #LightSource "spotlight" 1 "from" [500 -500 0] "to" [0 0 -16] "coneangle" 0.012
             #"intensity" 500000 "conedeltaangle" 0.006
         Color 0.23 0.71 0.88
-        ReadArchive "rib_files/funnel6_low.rib"
+        ReadArchive "rib_files/funnel6_high.rib"
     AttributeEnd
 
     AttributeBegin
@@ -72,7 +72,7 @@ TransformBegin
             #"intensity" 500000 "conedeltaangle" 0.006
         Scale 1 1 0.9
         Color 0.75 0.75 0.28
-        ReadArchive "rib_files/funnel2_low.rib"
+        ReadArchive "rib_files/funnel2_high.rib"
     AttributeEnd
 
 TransformEnd
